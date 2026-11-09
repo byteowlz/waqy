@@ -1,0 +1,38 @@
+{
+ "name": "run",
+ "trigger": "run",
+ "train_bare": true,
+ "display": "Run",
+ "kind": "command",
+ "forms": {
+  "de": [
+   "Run",
+   "Starte"
+  ],
+  "en": [
+   "Run"
+  ]
+ },
+ "confusables": {
+  "de": [
+   "running",
+   "ran",
+   "rum",
+   "ruhm"
+  ],
+  "en": [
+   "running",
+   "ran",
+   "wrong"
+  ]
+ },
+ "pronunciation_note": "Command word: bare only. 'running' is the main confusable.",
+ "address_primary": {
+  "de": "Hey",
+  "en": "Hey"
+ },
+ "accept_stems": [
+  "run",
+  "starte"
+ ]
+}

@@ -1,0 +1,52 @@
+{
+ "name": "perplexity",
+ "display": "Perplexity",
+ "kind": "wake",
+ "train_bare": true,
+ "forms": {
+  "de": [
+   "Hey Perplexity",
+   "He Perplexity",
+   "Perplexity",
+   "Perplexity?"
+  ],
+  "en": [
+   "Hey Perplexity",
+   "Perplexity",
+   "Perplexity?"
+  ]
+ },
+ "confusables": {
+  "de": [
+   "Perplex",
+   "Komplexität",
+   "Plexiglas",
+   "Perücke"
+  ],
+  "en": [
+   "perplex",
+   "complexity",
+   "plex",
+   "perks city"
+  ]
+ },
+ "accept_stems": [
+  "hey",
+  "okay",
+  "perplexity"
+ ],
+ "pronunciation_note": "Owner request 2026-11-04. Four syllables ending in -ity; 'perplex' and 'complexity' are the near-misses.",
+ "address": {
+  "de": [
+   "Hey",
+   "He"
+  ],
+  "en": [
+   "Hey"
+  ]
+ },
+ "address_primary": {
+  "de": "Hey",
+  "en": "Hey"
+ }
+}

@@ -1,0 +1,35 @@
+{
+ "name": "trigger",
+ "trigger": "trigger",
+ "train_bare": true,
+ "display": "Trigger",
+ "kind": "command",
+ "forms": {
+  "de": [
+   "Trigger",
+   "Auslöser"
+  ],
+  "en": [
+   "Trigger"
+  ]
+ },
+ "confusables": {
+  "de": [
+   "Tricker",
+   "Ticker"
+  ],
+  "en": [
+   "tricker",
+   "ticker"
+  ]
+ },
+ "pronunciation_note": "Command word; German often devoices the g. Keep the devoiced form as a positive variant, not a confusable.",
+ "address_primary": {
+  "de": "Hey",
+  "en": "Hey"
+ },
+ "accept_stems": [
+  "auslöser",
+  "trigger"
+ ]
+}

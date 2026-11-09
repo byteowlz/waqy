@@ -1,0 +1,100 @@
+{
+ "name": "dictate",
+ "display": "Dictate",
+ "trigger": "dictate",
+ "train_bare": true,
+ "accept_stems": [
+  "dictado",
+  "dictate",
+  "dictate?",
+  "dictation",
+  "diktat"
+ ],
+ "address": {
+  "de": [
+   "Hey",
+   "He"
+  ],
+  "en": [
+   "Hey"
+  ],
+  "es": [
+   "Oye",
+   "Eh"
+  ]
+ },
+ "address_primary": {
+  "de": "Hey",
+  "en": "Hey",
+  "es": "Oye"
+ },
+ "forms": {
+  "de": [
+   "Hey Diktat",
+   "He Diktat",
+   "Diktat"
+  ],
+  "en": [
+   "Hey Dictate",
+   "Hey Dictate?",
+   "Hey Dictation",
+   "Dictate",
+   "Dictate?",
+   "Dictation"
+  ],
+  "es": [
+   "Oye Dictado",
+   "Eh Dictado",
+   "Dictado"
+  ]
+ },
+ "confusables": {
+  "de": [
+   "Diktat",
+   "Diktator",
+   "diktiert"
+  ],
+  "en": [
+   "dictator",
+   "dictation",
+   "dictated",
+   "addict"
+  ],
+  "es": [
+   "dictador",
+   "dictado",
+   "dicta"
+  ]
+ },
+ "templates": {
+  "de": [
+   "{W}",
+   "{W}.",
+   "{W}!",
+   "{A} {W}.",
+   "{W}, bitte.",
+   "Sag {W} und dann weiter.",
+   "{W}, jetzt."
+  ],
+  "en": [
+   "{W}",
+   "{W}.",
+   "{W}!",
+   "{A} {W}.",
+   "{W}, please.",
+   "Say {W} and then carry on.",
+   "{W}, now."
+  ],
+  "es": [
+   "{W}",
+   "{W}.",
+   "¡{W}!",
+   "{A} {W}.",
+   "{W}, por favor.",
+   "Di {W} y sigue.",
+   "{W}, ahora."
+  ]
+ },
+ "note": "Command word: start dictation. Bare by nature (an imperative), so the runtime onset gate applies; no Hey form is required to trigger it.",
+ "policy": "command-bare"
+}

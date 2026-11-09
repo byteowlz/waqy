@@ -1,0 +1,49 @@
+{
+ "name": "bot",
+ "display": "Bot",
+ "kind": "wake",
+ "train_bare": false,
+ "forms": {
+  "de": [
+   "Hey Bot",
+   "He Bot"
+  ],
+  "en": [
+   "Hey Bot"
+  ]
+ },
+ "confusables": {
+  "de": [
+   "Bord",
+   "Brot",
+   "Bottich"
+  ],
+  "en": [
+   "but",
+   "bought",
+   "boat",
+   "bob",
+   "pot"
+  ]
+ },
+ "accept_stems": [
+  "hey",
+  "okay",
+  "bot",
+  "bott"
+ ],
+ "pronunciation_note": "Owner request 2026-11-04, addressed-only: 'Bot' is one syllable and appears in ordinary speech (chat bot, robot), so only the two-word form is a head. German 'Bott' is /bɔt/, the same short-o word people say for a chat bot, so it is an accepted spelling (owner, 2026-11-04). espeak reads capitalised 'Bot' as the verb 'bot' (/boːt/), which is why the audit first called Boot a homophone; 'Boot' (das Boot, /boːt/) is kept as a near-miss for long-o speakers and is worth a listening check.",
+ "address": {
+  "de": [
+   "Hey",
+   "He"
+  ],
+  "en": [
+   "Hey"
+  ]
+ },
+ "address_primary": {
+  "de": "Hey",
+  "en": "Hey"
+ }
+}

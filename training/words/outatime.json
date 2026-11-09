@@ -1,0 +1,93 @@
+{
+ "name": "outatime",
+ "display": "Outatime",
+ "trigger": "hey outatime",
+ "train_bare": true,
+ "address": {
+  "de": [
+   "Hey",
+   "He"
+  ],
+  "en": [
+   "Hey"
+  ],
+  "es": [
+   "Oye",
+   "Eh",
+   "Oye"
+  ]
+ },
+ "address_primary": {
+  "de": "Hey",
+  "en": "Hey",
+  "es": "Oye"
+ },
+ "forms": {
+  "de": [
+   "Hey Outatime",
+   "He Outatime",
+   "Outatime",
+   "Outatime?"
+  ],
+  "en": [
+   "Hey Outatime",
+   "Outatime",
+   "Outatime?"
+  ],
+  "es": [
+   "Oye Outatime",
+   "Eh Outatime",
+   "Outatime",
+   "Outatime?"
+  ]
+ },
+ "confusables": {
+  "de": [
+   "Out of Time",
+   "aus der Zeit",
+   "Autotime"
+  ],
+  "en": [
+   "out of time",
+   "outta time",
+   "outer time"
+  ],
+  "es": [
+   "fuera de tiempo",
+   "out of time"
+  ]
+ },
+ "templates": {
+  "de": [
+   "{W}",
+   "{A} {W}.",
+   "{A} {W}, mach das Licht an.",
+   "Also, äh, {A} {W}, spiel Musik.",
+   "{A} {W}, wie spät ist es?",
+   "Hast du {W} schon ausprobiert?",
+   "Mit {W} geht das viel schneller."
+  ],
+  "en": [
+   "{W}",
+   "{A} {W}.",
+   "{A} {W}, turn on the lights.",
+   "So, uhm, {A} {W}, play some music.",
+   "{A} {W}, what time is it?",
+   "Have you tried {W} yet?",
+   "With {W} this is much faster."
+  ],
+  "es": [
+   "{W}",
+   "{A} {W}.",
+   "{A} {W}, enciende la luz.",
+   "Vale, {A} {W}, pon música.",
+   "{A} {W}, ¿qué hora es?",
+   "¿Ya probaste {W}?",
+   "Con {W} esto va mucho más rápido."
+  ]
+ },
+ "accept_stems": [
+  "out atime"
+ ],
+ "pronunciation_note": "Same-sound spellings found by an espeak-ng IPA audit (2026-11-04) moved from confusables to accept_stems: out atime."
+}

@@ -1,0 +1,12 @@
+{
+ "name": "inside-ai",
+ "display": "Inside AI",
+ "kind": "wake",
+ "train_bare": true,
+ "forms": {"de": ["Inside AI", "Inside AI?"], "en": ["Inside AI", "Inside AI?"]},
+ "confusables": {"de": ["Inside", "In Seiten", "Insider", "Inside Eye"], "en": ["inside", "insider", "inside eye", "in sight"]},
+ "accept_stems": ["inside ai", "inside a i"],
+ "pronunciation_note": "Podcast name. Said 'Inside A-I' (English letters) in German and English. A German ASR spells it once in 10,491 podcast clips, which is why it gets an acoustic head (board 2026-11-04). 'Inside' alone is a near-miss.",
+ "address": {"de": ["Hey", "He"], "en": ["Hey"]},
+ "address_primary": {"de": "Hey", "en": "Hey"}
+}

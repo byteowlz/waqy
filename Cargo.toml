@@ -1,0 +1,29 @@
+[package]
+name = "waqy"
+version = "0.1.0"
+edition = "2024"
+license = "Apache-2.0"
+description = "Wake-phrase detection as data: a frozen speech-embedding front end plus one tiny classifier per phrase, with a process protocol any host can drive"
+repository = "https://github.com/byteowlz/waqy"
+documentation = "https://github.com/byteowlz/waqy/blob/main/README.md"
+keywords = ["wake-word", "keyword-spotting", "speech", "onnx", "voice"]
+categories = ["multimedia::audio", "science"]
+readme = "README.md"
+
+[dependencies]
+anyhow = "1"
+clap = { version = "4", features = ["derive"] }
+hound = "3"
+# Legacy DTW/template backend, kept only for the pilot that failed (docs/adr). Off by
+# default: it pulls an old candle-core that conflicts with newer half/rand versions.
+rustpotter = { version = "=3.0.2", default-features = false, optional = true }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+sha2 = "0.10"
+# Same pin as eaRS; loaded dynamically (ORT_DYLIB_PATH or a platform default).
+ort = { version = "=2.0.0-rc.12", default-features = false, features = ["load-dynamic", "std", "ndarray", "api-22"] }
+ort-sys = { version = "=2.0.0-rc.12", default-features = false, features = ["disable-linking"] }
+
+[features]
+default = []
+rustpotter = ["dep:rustpotter"]

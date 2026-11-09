@@ -1,0 +1,93 @@
+{
+ "name": "kompressor",
+ "display": "Kompressor",
+ "trigger": "hey kompressor",
+ "train_bare": true,
+ "address": {
+  "de": [
+   "Hey",
+   "He"
+  ],
+  "en": [
+   "Hey"
+  ],
+  "es": [
+   "Oye",
+   "Eh",
+   "Oye"
+  ]
+ },
+ "address_primary": {
+  "de": "Hey",
+  "en": "Hey",
+  "es": "Oye"
+ },
+ "forms": {
+  "de": [
+   "Hey Kompressor",
+   "He Kompressor",
+   "Kompressor",
+   "Kompressor?"
+  ],
+  "en": [
+   "Hey Kompressor",
+   "Kompressor",
+   "Kompressor?"
+  ],
+  "es": [
+   "Oye Kompressor",
+   "Eh Kompressor",
+   "Kompressor",
+   "Kompressor?"
+  ]
+ },
+ "confusables": {
+  "de": [
+   "Kompressoren",
+   "Kompresse"
+  ],
+  "en": [
+   "compressed or"
+  ],
+  "es": [
+   "compresor",
+   "compresor de aire"
+  ]
+ },
+ "templates": {
+  "de": [
+   "{W}",
+   "{A} {W}.",
+   "{A} {W}, mach das Licht an.",
+   "Also, äh, {A} {W}, spiel Musik.",
+   "{A} {W}, wie spät ist es?",
+   "Hast du {W} schon ausprobiert?",
+   "Mit {W} geht das viel schneller."
+  ],
+  "en": [
+   "{W}",
+   "{A} {W}.",
+   "{A} {W}, turn on the lights.",
+   "So, uhm, {A} {W}, play some music.",
+   "{A} {W}, what time is it?",
+   "Have you tried {W} yet?",
+   "With {W} this is much faster."
+  ],
+  "es": [
+   "{W}",
+   "{A} {W}.",
+   "{A} {W}, enciende la luz.",
+   "Vale, {A} {W}, pon música.",
+   "{A} {W}, ¿qué hora es?",
+   "¿Ya probaste {W}?",
+   "Con {W} esto va mucho más rápido."
+  ]
+ },
+ "accept_stems": [
+  "hey",
+  "okay",
+  "kompressor",
+  "compressor"
+ ],
+ "pronunciation_note": "English 'compressor' is the same word in English spelling and therefore an accepted spelling, not a look-alike (2026-11-04)."
+}

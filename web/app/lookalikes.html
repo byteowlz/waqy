@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en" data-scheme="oqto-dark">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="color-scheme" content="dark"><title>Look-alikes · waqy</title>
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="/tokens.css"><link rel="stylesheet" href="/style.css">
+<script type="module" src="/lookalikes-page.mjs"></script>
+</head>
+<body>
+<header><a href="/">waqy</a><nav aria-label="Pages"><a href="/">Record</a><a href="/lookalikes" aria-current="page">Look-alikes</a><a href="/detect">Detector</a><a href="/heads">Heads</a></nav></header>
+<div class="collect">
+
+<aside class="rail" aria-labelledby="rail-heading">
+<div class="rail-head"><h2 id="rail-heading">Words</h2><span id="rail-total" class="hint"></span></div>
+<ol id="rail" class="rail-list"><li class="hint">Loading…</li></ol>
+</aside>
+
+<main class="workspace lk">
+<div class="lk-head">
+  <h1>Look-alikes</h1>
+  <a class="button-link primary" href="/" id="back">Back to recording</a>
+</div>
+<p class="lk-intro">Near-misses the detector must learn to ignore. Remove anything that sounds the same as the wake word: same sound is a wake form, never a look-alike. Add real near-misses you notice. Edits change what you record next; takes you already recorded stay until you delete them here.</p>
+
+<div class="lk-tools">
+  <label for="search" class="lk-search">Find<input id="search" type="search" placeholder="Word or phrase" autocomplete="off" spellcheck="false"></label>
+  <div class="segmented" role="group" aria-label="Language" id="language">
+    <button type="button" data-value="both" aria-pressed="true">Both</button><button type="button" data-value="de" aria-pressed="false">DE</button><button type="button" data-value="en" aria-pressed="false">EN</button>
+  </div>
+</div>
+<p id="summary" class="lk-summary"></p>
+<div id="status" class="lk-status" role="status" aria-live="polite"></div>
+<p id="error" role="alert" hidden></p>
+
+<div id="list" class="lk-list"><p class="hint">Loading…</p></div>
+
+<p class="privacy">The list lives privately on this host, on top of the word specs. <a href="/api/lookalikes/export" download>Download the overrides</a> for the next training run; existing heads do not change until they are retrained.</p>
+</main>
+</div>
+</body></html>

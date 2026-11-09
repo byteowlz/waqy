@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en" data-scheme="oqto-dark">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="color-scheme" content="dark"><title>Wake phrase recordings</title>
+<link rel="icon" href="data:,">
+<link rel="stylesheet" href="/tokens.css"><link rel="stylesheet" href="/style.css">
+<script type="module" src="/app.mjs"></script>
+</head>
+<body>
+<header><a href="/">waqy</a><nav aria-label="Pages"><a href="/" aria-current="page">Record</a><a href="/lookalikes" id="nav-lookalikes">Look-alikes</a><a href="/detect">Detector</a><a href="/heads">Heads</a></nav></header>
+<div class="collect">
+
+<aside class="rail" aria-labelledby="rail-heading">
+<div class="rail-head"><h2 id="rail-heading">Words</h2><span id="rail-total" class="hint"></span></div>
+<ol id="rail" class="rail-list"><li class="hint">Loading…</li></ol>
+</aside>
+
+<main class="workspace">
+<div class="word-head">
+  <h1 id="word-title">…</h1>
+  <label class="word-pick" for="word">Word<select id="word"></select></label>
+  <div class="toggles">
+    <div class="segmented" role="group" aria-label="Record which words" id="record-scope">
+      <button type="button" data-value="word" aria-pressed="true" id="record-word">This word</button><button type="button" data-value="all" aria-pressed="false">All words</button>
+    </div>
+    <div class="segmented" role="group" aria-label="Language" id="language">
+      <button type="button" data-value="de" aria-pressed="true">DE</button><button type="button" data-value="en" aria-pressed="false">EN</button>
+    </div>
+    <div class="segmented" role="group" aria-label="What to record" id="label">
+      <button type="button" data-value="positive" aria-pressed="false">Wake</button><button type="button" data-value="negative" aria-pressed="false">Look-alikes</button><button type="button" data-value="both" aria-pressed="true">Both</button>
+    </div>
+  </div>
+</div>
+
+<section class="stage" id="stage" data-state="idle" aria-live="polite" aria-atomic="true">
+<p class="stage-state" id="cue">First phrase</p>
+<p class="stage-phrase" id="phrase">…</p>
+<p class="stage-how" id="how"></p>
+<div class="stage-bar" id="window" aria-hidden="true"><div class="stage-fill" id="fill"></div></div>
+<p class="stage-meta"><span id="progress">0 / 0</span><span id="next"></span></p>
+</section>
+
+<div class="go">
+<button id="start" class="primary">Start recording</button><button id="skip" hidden aria-label="Skip this phrase" aria-keyshortcuts="S">Skip</button><button id="redo" hidden aria-label="Redo the last take" aria-keyshortcuts="R">Redo</button><button id="stop">Stop</button>
+</div>
+<p id="keys" class="keys" hidden><kbd>Space</kbd> pause / resume · <kbd>S</kbd> skip phrase · <kbd>R</kbd> redo last · <kbd>Esc</kbd> stop</p>
+<p id="status" role="status">Press Record. Only missing takes are queued, so you can stop any time and continue later.</p>
+<p id="level" class="level" hidden></p>
+<p id="error" role="alert" hidden></p>
+
+<details class="options">
+<summary>Options</summary>
+<div class="options-row">
+<label for="style">Style<select id="style"><option value="normal" selected>Normal voice</option><option value="whispered">Whispered</option><option value="far">From across the room</option></select></label>
+<label for="pace">Pace<select id="pace"><option value="fast" selected>Fast</option><option value="relaxed">Relaxed</option></select></label>
+<label for="take-count">Takes per phrase<select id="take-count"><option value="1">1</option><option value="2">2</option><option value="3" selected>3</option><option value="6">6 (second sitting)</option></select></label>
+</div>
+<div class="mics" id="mics">
+  <div class="mics-head"><span>Record on</span><span id="mics-state" class="hint"></span></div>
+  <ul id="mic-list" class="mic-list"></ul>
+</div>
+</details>
+
+<section class="review" aria-labelledby="review-heading">
+<div class="review-head">
+  <h2 id="review-heading">Takes <span id="review-count" class="hint"></span></h2>
+  <div class="segmented" role="group" aria-label="Which takes" id="review-scope">
+    <button type="button" data-value="word" aria-pressed="true" id="scope-word">This word</button><button type="button" data-value="all" aria-pressed="false">All words</button>
+  </div>
+  <div class="segmented" role="group" aria-label="Filter takes">
+    <button id="filter-all" type="button" class="filter" data-filter="all" aria-pressed="true">All</button><button id="filter-wake" type="button" class="filter" data-filter="positive" aria-pressed="false">Wake</button><button id="filter-look" type="button" class="filter" data-filter="negative" aria-pressed="false">Look-alikes</button>
+  </div>
+</div>
+<ol id="takes" class="takes"><li class="take-empty">No takes yet.</li></ol>
+</section>
+
+<details class="more">
+<summary>Session log</summary>
+<div class="actions"><button id="delete" disabled>Delete last take</button><button id="download" disabled>Download take list</button><span id="saved-id" hidden></span></div>
+<pre id="log" class="transcript"></pre>
+<p id="plan-count" class="hint"></p><pre id="plan"></pre>
+</details>
+
+<p class="privacy">Takes stay privately on this host. Saving is not consent to training or enrollment.</p>
+</main>
+</div>
+</body></html>

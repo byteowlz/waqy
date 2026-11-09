@@ -1,0 +1,53 @@
+{
+ "name": "oqto",
+ "address_variants": {"de": ["Yo"], "en": ["Yo"]},
+ "trigger": "hey oqto",
+ "train_bare": true,
+ "forms": {
+  "de": [
+   "Hey Okto",
+   "Yo Okto",
+   "He Okto",
+   "Okto",
+   "Okto?"
+  ],
+  "en": [
+   "Hey Octo",
+   "Yo Octo",
+   "Octo",
+   "Octo?"
+  ]
+ },
+ "confusables": {
+  "de": [
+   "Oktober",
+   "Oktopus",
+   "Oktave",
+   "okay",
+   "oki",
+   "hey"
+  ],
+  "en": [
+   "October",
+   "octopus",
+   "octave",
+   "okay",
+   "oki",
+   "hey"
+  ]
+ },
+ "display": "Oqto",
+ "pronunciation_note": "Spoken ok-to/ok-toh; display spelling Oqto. Collected to keep the best-performing head current. Synthesis must use the spoken spelling (Okto/Octo): without spoken_primary the generator wrote the brand spelling 'Oqto' into every sentence, and 690 of 786 synthetic wake clips were (rightly) dropped as not containing a wake spelling (2026-11-04).",
+ "spoken_primary": {
+  "de": "Okto",
+  "en": "Octo",
+  "es": "Octo"
+ },
+ "accept_stems": [
+  "okto",
+  "octo",
+  "oqto",
+  "ok-to",
+  "ok-toh"
+ ]
+}

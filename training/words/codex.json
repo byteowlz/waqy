@@ -1,0 +1,53 @@
+{
+ "name": "codex",
+ "display": "Codex",
+ "kind": "wake",
+ "train_bare": true,
+ "forms": {
+  "de": [
+   "Hey Codex",
+   "He Codex",
+   "Codex",
+   "Codex?"
+  ],
+  "en": [
+   "Hey Codex",
+   "Codex",
+   "Codex?"
+  ]
+ },
+ "confusables": {
+  "de": [
+   "Kode",
+   "Köder",
+   "Kodeks",
+   "Kodak"
+  ],
+  "en": [
+   "code",
+   "codes",
+   "kodak",
+   "cortex"
+  ]
+ },
+ "accept_stems": [
+  "hey",
+  "okay",
+  "codex",
+  "kodex"
+ ],
+ "pronunciation_note": "Owner request 2026-11-04. German 'Kodex' is the same word in German spelling, so it is an accepted spelling.",
+ "address": {
+  "de": [
+   "Hey",
+   "He"
+  ],
+  "en": [
+   "Hey"
+  ]
+ },
+ "address_primary": {
+  "de": "Hey",
+  "en": "Hey"
+ }
+}

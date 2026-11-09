@@ -1,0 +1,55 @@
+{
+ "name": "copilot",
+ "display": "Copilot",
+ "kind": "wake",
+ "train_bare": true,
+ "forms": {
+  "de": [
+   "Hey Copilot",
+   "He Copilot",
+   "Copilot",
+   "Copilot?"
+  ],
+  "en": [
+   "Hey Copilot",
+   "Copilot",
+   "Copilot?"
+  ]
+ },
+ "confusables": {
+  "de": [
+   "Pilot",
+   "Koala",
+   "Kapitel",
+   "Kobalt"
+  ],
+  "en": [
+   "pilot",
+   "copy lot",
+   "kobold",
+   "copy pilot",
+   "co-pilate"
+  ]
+ },
+ "accept_stems": [
+  "hey",
+  "okay",
+  "copilot",
+  "ko pilot",
+  "co pilot"
+ ],
+ "pronunciation_note": "Owner request 2026-11-04. German speakers say 'Ko-Pilot' (hard k, long o); 'Kopilot' is therefore an accepted spelling, not a look-alike.",
+ "address": {
+  "de": [
+   "Hey",
+   "He"
+  ],
+  "en": [
+   "Hey"
+  ]
+ },
+ "address_primary": {
+  "de": "Hey",
+  "en": "Hey"
+ }
+}

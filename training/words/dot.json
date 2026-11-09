@@ -1,0 +1,49 @@
+{
+ "name": "dot",
+ "display": "Dot",
+ "kind": "wake",
+ "train_bare": false,
+ "forms": {
+  "de": [
+   "Hey Dot",
+   "He Dot"
+  ],
+  "en": [
+   "Hey Dot"
+  ]
+ },
+ "confusables": {
+  "de": [
+   "Doge",
+   "Doz",
+   "Dog",
+   "Tod"
+  ],
+  "en": [
+   "dots",
+   "dog",
+   "pot",
+   "tot",
+   "dots of"
+  ]
+ },
+ "accept_stems": [
+  "hey",
+  "okay",
+  "dot"
+ ],
+ "pronunciation_note": "Owner request 2026-11-04, addressed-only: 'dot' is an everyday word (dot com, dot files), so a bare head would fire on ordinary speech. Two-word near-misses only.",
+ "address": {
+  "de": [
+   "Hey",
+   "He"
+  ],
+  "en": [
+   "Hey"
+  ]
+ },
+ "address_primary": {
+  "de": "Hey",
+  "en": "Hey"
+ }
+}

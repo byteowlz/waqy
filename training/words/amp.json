@@ -1,0 +1,55 @@
+{
+ "name": "amp",
+ "display": "Amp",
+ "kind": "wake",
+ "train_bare": true,
+ "forms": {
+  "de": [
+   "Hey Amp",
+   "He Amp",
+   "Amp",
+   "Amp?"
+  ],
+  "en": [
+   "Hey Amp",
+   "Amp",
+   "Amp?"
+  ]
+ },
+ "confusables": {
+  "de": [
+   "Amt",
+   "Am",
+   "Ampel",
+   "Amper",
+   "Anp"
+  ],
+  "en": [
+   "am",
+   "and",
+   "ham",
+   "imp",
+   "amped",
+   "amps"
+  ]
+ },
+ "accept_stems": [
+  "hey",
+  "okay",
+  "amp"
+ ],
+ "pronunciation_note": "Owner request 2026-11-04. One syllable, short a as in English 'amp'; German speakers say it the same way. The bare form is short and common, so the addressed head (hey_amp) is the trigger and the bare head needs the owner's listening before anything binds it. 'Amt' (German) devoices to amt, not amp: a near-miss, not a homophone.",
+ "address": {
+  "de": [
+   "Hey",
+   "He"
+  ],
+  "en": [
+   "Hey"
+  ]
+ },
+ "address_primary": {
+  "de": "Hey",
+  "en": "Hey"
+ }
+}

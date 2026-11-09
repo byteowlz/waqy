@@ -1,0 +1,52 @@
+{
+ "name": "mac-mini",
+ "display": "Mac Mini",
+ "kind": "wake",
+ "train_bare": true,
+ "forms": {
+  "de": [
+   "Hey Mac Mini",
+   "He Mac Mini",
+   "Mac Mini",
+   "Mac Mini?"
+  ],
+  "en": [
+   "Hey Mac Mini",
+   "Mac Mini",
+   "Mac Mini?"
+  ]
+ },
+ "confusables": {
+  "de": [
+   "Mac",
+   "Mini",
+   "Minister",
+   "Mini Rock"
+  ],
+  "en": [
+   "mac",
+   "mini",
+   "minivan",
+   "mini me"
+  ]
+ },
+ "accept_stems": [
+  "hey",
+  "okay",
+  "mac mini"
+ ],
+ "pronunciation_note": "Owner request 2026-11-04. 'mini mac' (the reversed order) is a near-miss, not a homophone.",
+ "address": {
+  "de": [
+   "Hey",
+   "He"
+  ],
+  "en": [
+   "Hey"
+  ]
+ },
+ "address_primary": {
+  "de": "Hey",
+  "en": "Hey"
+ }
+}

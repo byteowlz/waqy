@@ -1,0 +1,123 @@
+{
+ "name": "ginee",
+ "display": "Ginee",
+ "trigger": "hey ginee",
+ "train_bare": true,
+ "accept_stems": [
+  "ginee",
+  "djini",
+  "dschini",
+  "genie",
+  "jeanie",
+  "jeannie",
+  "geni",
+  "gini",
+  "chini",
+  "schini",
+  "djinni"
+ ],
+ "address": {
+  "de": [
+   "Hey",
+   "He"
+  ],
+  "en": [
+   "Hey"
+  ],
+  "es": [
+   "Oye",
+   "Eh",
+   "Oye"
+  ]
+ },
+ "address_primary": {
+  "de": "Hey",
+  "en": "Hey",
+  "es": "Oye"
+ },
+ "forms": {
+  "de": [
+   "Hey Djini",
+   "Djini",
+   "Hey Dschini",
+   "Dschini",
+   "Hey Genie",
+   "Genie",
+   "Ginee"
+  ],
+  "en": [
+   "Hey Genie",
+   "Genie",
+   "Hey Jeanie",
+   "Jeanie",
+   "Ginee"
+  ],
+  "es": [
+   "Oye Yini",
+   "Yini",
+   "Oye Ginee",
+   "Ginee"
+  ]
+ },
+ "confusables": {
+  "de": [
+   "Dschinn",
+   "Ginie",
+   "Giene",
+   "Jenni",
+   "Jinni",
+   "Knie"
+  ],
+  "en": [
+   "jinny",
+   "guinea",
+   "gene",
+   "jean",
+   "ginny",
+   "penny",
+   "jenny"
+  ],
+  "es": [
+   "genio",
+   "gini",
+   "yini",
+   "Jeannie",
+   "ginebra"
+  ]
+ },
+ "templates": {
+  "de": [
+   "{W}",
+   "{A} {W}.",
+   "{A} {W}, mach das Licht an.",
+   "Also, äh, {A} {W}, spiel Musik.",
+   "{A} {W}, wie spät ist es?",
+   "Hast du {W} schon ausprobiert?",
+   "Mit {W} geht das viel schneller."
+  ],
+  "en": [
+   "{W}",
+   "{A} {W}.",
+   "{A} {W}, turn on the lights.",
+   "So, uhm, {A} {W}, play some music.",
+   "{A} {W}, what time is it?",
+   "Have you tried {W} yet?",
+   "With {W} this is much faster."
+  ],
+  "es": [
+   "{W}",
+   "{A} {W}.",
+   "{A} {W}, enciende la luz.",
+   "Vale, {A} {W}, pon música.",
+   "{A} {W}, ¿qué hora es?",
+   "¿Ya probaste {W}?",
+   "Con {W} esto va mucho más rápido."
+  ]
+ },
+ "pronunciation_note": "Owner listening decision (2026-10-29): German 'Djini', English 'Genie'. German round 1 measured Dschini 3/3 by whisper-small but the owner heard unvoiced 'Tschini'; round 2 candidates generated to test the voiced affricate: Djini heard as 'Genie'/'Hey Jeanie', Djinie 'Genie'/'Hey Genie', Djinni 'Jenny' (short vowel), Dschiini 'Die Schini', Djiini 'DINI', Dschini inconsistent by voice. English: owner picked Genie; Jeanie stays as a minority spelling (measured 3/3 'Jeannie'), 'Geni' was heard as 'Jenny'. Display spelling remains 'Ginee'. Votes: ~/.local/share/foxline/waqy-review/ginee-1/votes.json",
+ "spoken_primary": {
+  "de": "Djini",
+  "en": "Genie",
+  "es": "Yini"
+ }
+}

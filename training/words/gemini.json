@@ -1,0 +1,52 @@
+{
+ "name": "gemini",
+ "display": "Gemini",
+ "kind": "wake",
+ "train_bare": true,
+ "forms": {
+  "de": [
+   "Hey Gemini",
+   "He Gemini",
+   "Gemini",
+   "Gemini?"
+  ],
+  "en": [
+   "Hey Gemini",
+   "Gemini",
+   "Gemini?"
+  ]
+ },
+ "confusables": {
+  "de": [
+   "Gemüse",
+   "Geminin",
+   "Seminar",
+   "Gremium"
+  ],
+  "en": [
+   "gemma",
+   "geminids",
+   "jiminy",
+   "jenny"
+  ]
+ },
+ "accept_stems": [
+  "hey",
+  "okay",
+  "gemini"
+ ],
+ "pronunciation_note": "Owner request 2026-11-04. Stress on Ge- (GEM-in-ee); German speakers use a hard g as in 'gut'.",
+ "address": {
+  "de": [
+   "Hey",
+   "He"
+  ],
+  "en": [
+   "Hey"
+  ]
+ },
+ "address_primary": {
+  "de": "Hey",
+  "en": "Hey"
+ }
+}

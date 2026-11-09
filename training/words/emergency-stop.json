@@ -1,0 +1,35 @@
+{
+ "name": "emergency-stop",
+ "display": "Emergency stop",
+ "kind": "command",
+ "train_bare": true,
+ "forms": {
+  "de": [
+   "Emergency stop",
+   "Emergency stop!"
+  ],
+  "en": [
+   "Emergency stop",
+   "Emergency stop!"
+  ]
+ },
+ "confusables": {
+  "de": [
+   "emergency",
+   "emergency exit",
+   "I'm a genie stop",
+   "energy stop"
+  ],
+  "en": [
+   "emergency",
+   "emergency exit",
+   "I'm a genie stop",
+   "energy stop"
+  ]
+ },
+ "accept_stems": [
+  "emergency stop",
+  "emergency stopp"
+ ],
+ "pronunciation_note": "English emergency phrase (2026-11-04): the industrial term, understood by everyone in the room. Four syllables cost about a second, so it is the deliberate stop; 'Stop' and 'Halt, halt!' cover the fast panic case. Written the same in German and English because a bystander will shout it in English."
+}

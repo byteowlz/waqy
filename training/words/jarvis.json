@@ -1,0 +1,51 @@
+{
+ "name": "jarvis",
+ "address_variants": {"de": ["Yo"], "en": ["Yo"]},
+ "trigger": "hey jarvis",
+ "train_bare": true,
+ "display": "Jarvis",
+ "kind": "wake",
+ "forms": {
+  "de": [
+   "Hey Jarvis",
+   "Yo Jarvis",
+   "He Jarvis",
+   "Okay Jarvis",
+   "Ok Jarvis",
+   "Jarvis",
+   "Jarvis?"
+  ],
+  "en": [
+   "Hey Jarvis",
+   "Yo Jarvis",
+   "Okay Jarvis",
+   "Ok Jarvis",
+   "Jarvis",
+   "Jarvis?"
+  ]
+ },
+ "confusables": {
+  "de": [
+   "Jervis",
+   "Javis",
+   "Darwin"
+  ],
+  "en": [
+   "Jervis",
+   "Jarvas"
+  ]
+ },
+ "pronunciation_note": "Stress the first syllable; German speakers often devoice the final s. Both are acceptable positives, not confusables. Same-sound spellings found by an espeak-ng IPA audit (2026-11-04) moved from confusables to accept_stems: Jarwis, jar vis.",
+ "address_primary": {
+  "de": "Hey",
+  "en": "Hey"
+ },
+ "accept_stems": [
+  "hey",
+  "jarvis",
+  "jarvis?",
+  "okay",
+  "jarwis",
+  "jar vis"
+ ]
+}

@@ -1,0 +1,52 @@
+{
+ "name": "mistral",
+ "display": "Mistral",
+ "kind": "wake",
+ "train_bare": true,
+ "forms": {
+  "de": [
+   "Hey Mistral",
+   "He Mistral",
+   "Mistral",
+   "Mistral?"
+  ],
+  "en": [
+   "Hey Mistral",
+   "Mistral",
+   "Mistral?"
+  ]
+ },
+ "confusables": {
+  "de": [
+   "Mist",
+   "Mistgabel",
+   "Minister",
+   "Mittel"
+  ],
+  "en": [
+   "mist",
+   "missed rail",
+   "minstrel",
+   "miss tral"
+  ]
+ },
+ "accept_stems": [
+  "hey",
+  "okay",
+  "mistral"
+ ],
+ "pronunciation_note": "Owner request 2026-11-04. Stress on -tral; the German and English pronunciations agree.",
+ "address": {
+  "de": [
+   "Hey",
+   "He"
+  ],
+  "en": [
+   "Hey"
+  ]
+ },
+ "address_primary": {
+  "de": "Hey",
+  "en": "Hey"
+ }
+}

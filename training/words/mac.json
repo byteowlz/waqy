@@ -1,0 +1,48 @@
+{
+ "name": "mac",
+ "display": "Mac",
+ "kind": "wake",
+ "train_bare": false,
+ "forms": {
+  "de": [
+   "Hey Mac",
+   "He Mac"
+  ],
+  "en": [
+   "Hey Mac"
+  ]
+ },
+ "confusables": {
+  "de": [
+   "Max",
+   "Mappe",
+   "Macht"
+  ],
+  "en": [
+   "max",
+   "mark",
+   "map"
+  ]
+ },
+ "accept_stems": [
+  "hey",
+  "okay",
+  "mac",
+  "mack",
+  "mag"
+ ],
+ "pronunciation_note": "Owner request 2026-11-04: 'Hey Mac' as an optional trigger, separate from MacBook/Mac Studio/Mac Mini (which keep plain 'Mac' as a look-alike so they do not fire on it). Addressed-only: bare 'Mac' is an everyday word. 'Mack'/'Max' are the sound-alikes; 'Mack' is an accepted spelling because it is the same sound. German 'Mag' sounds identical (/maːk/), so it is an accepted spelling too; 'Max' only adds an s and stays a near-miss. English 'mag' (/mæɡ/) differs from 'Mac' and is dropped from the list only because accept_stems are language-agnostic.",
+ "address": {
+  "de": [
+   "Hey",
+   "He"
+  ],
+  "en": [
+   "Hey"
+  ]
+ },
+ "address_primary": {
+  "de": "Hey",
+  "en": "Hey"
+ }
+}

@@ -1,0 +1,93 @@
+{
+ "name": "raiden",
+ "display": "Raiden",
+ "trigger": "hey raiden",
+ "train_bare": true,
+ "address": {
+  "de": [
+   "Hey",
+   "He"
+  ],
+  "en": [
+   "Hey"
+  ],
+  "es": [
+   "Oye",
+   "Eh",
+   "Oye"
+  ]
+ },
+ "address_primary": {
+  "de": "Hey",
+  "en": "Hey",
+  "es": "Oye"
+ },
+ "forms": {
+  "de": [
+   "Hey Raiden",
+   "He Raiden",
+   "Raiden",
+   "Raiden?"
+  ],
+  "en": [
+   "Hey Raiden",
+   "Raiden",
+   "Raiden?"
+  ],
+  "es": [
+   "Oye Raiden",
+   "Eh Raiden",
+   "Raiden",
+   "Raiden?"
+  ]
+ },
+ "confusables": {
+  "de": [
+   "Reiten",
+   "Raden"
+  ],
+  "en": [
+   "riding",
+   "ray don"
+  ],
+  "es": [
+   "raidén",
+   "raiden"
+  ]
+ },
+ "templates": {
+  "de": [
+   "{W}",
+   "{A} {W}.",
+   "{A} {W}, mach das Licht an.",
+   "Also, äh, {A} {W}, spiel Musik.",
+   "{A} {W}, wie spät ist es?",
+   "Hast du {W} schon ausprobiert?",
+   "Mit {W} geht das viel schneller."
+  ],
+  "en": [
+   "{W}",
+   "{A} {W}.",
+   "{A} {W}, turn on the lights.",
+   "So, uhm, {A} {W}, play some music.",
+   "{A} {W}, what time is it?",
+   "Have you tried {W} yet?",
+   "With {W} this is much faster."
+  ],
+  "es": [
+   "{W}",
+   "{A} {W}.",
+   "{A} {W}, enciende la luz.",
+   "Vale, {A} {W}, pon música.",
+   "{A} {W}, ¿qué hora es?",
+   "¿Ya probaste {W}?",
+   "Con {W} esto va mucho más rápido."
+  ]
+ },
+ "accept_stems": [
+  "reiden",
+  "rayden",
+  "raidan"
+ ],
+ "pronunciation_note": "Same-sound spellings found by an espeak-ng IPA audit (2026-11-04) moved from confusables to accept_stems: Reiden, rayden, raidan."
+}

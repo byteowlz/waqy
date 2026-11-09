@@ -1,0 +1,40 @@
+{
+ "name": "btw",
+ "display": "By the way",
+ "kind": "command",
+ "trigger": "by the way",
+ "train_bare": true,
+ "forms": {
+  "de": [
+   "by the way",
+   "btw",
+   "By the way"
+  ],
+  "en": [
+   "by the way",
+   "btw",
+   "By the way?"
+  ]
+ },
+ "confusables": {
+  "de": [
+   "by the weight",
+   "beim Weg"
+  ],
+  "en": [
+   "by the weight",
+   "byway"
+  ]
+ },
+ "pronunciation_note": "Spoken as the phrase 'by the way'. 'buy the way' is a homophone, so it is a positive spelling; only continuations and 'by the weight' are negatives.",
+ "address_primary": {
+  "de": "Hey",
+  "en": "Hey"
+ },
+ "accept_stems": [
+  "btw",
+  "buy the way",
+  "by",
+  "way"
+ ]
+}

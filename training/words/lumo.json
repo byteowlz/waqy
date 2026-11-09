@@ -1,0 +1,52 @@
+{
+ "name": "lumo",
+ "display": "Lumo",
+ "kind": "wake",
+ "train_bare": true,
+ "forms": {
+  "de": [
+   "Hey Lumo",
+   "He Lumo",
+   "Lumo",
+   "Lumo?"
+  ],
+  "en": [
+   "Hey Lumo",
+   "Lumo",
+   "Lumo?"
+  ]
+ },
+ "confusables": {
+  "de": [
+   "Lump",
+   "Lumen",
+   "Numo",
+   "Ludo"
+  ],
+  "en": [
+   "loom",
+   "luma",
+   "lunar",
+   "lube"
+  ]
+ },
+ "accept_stems": [
+  "hey",
+  "okay",
+  "lumo"
+ ],
+ "pronunciation_note": "Owner request 2026-11-04. Two syllables, long u; 'Lumen' starts the same but is a near-miss.",
+ "address": {
+  "de": [
+   "Hey",
+   "He"
+  ],
+  "en": [
+   "Hey"
+  ]
+ },
+ "address_primary": {
+  "de": "Hey",
+  "en": "Hey"
+ }
+}

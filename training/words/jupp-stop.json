@@ -1,0 +1,31 @@
+{
+ "name": "jupp-stop",
+ "trigger": "jupp stop",
+ "display": "Jupp stop!",
+ "kind": "command",
+ "train_bare": true,
+ "forms": {
+  "de": [
+   "Jupp stop!"
+  ]
+ },
+ "confusables": {
+  "de": [
+   "Jupp",
+   "Jupp, mach ich",
+   "Job stopp",
+   "Jupp, okay"
+  ]
+ },
+ "pronunciation_note": "Wake name plus command in one phrase, so eaRS can bind it to stop while 'Hey Jupp' starts. Said with a German j (English y). Bare 'Jupp'/'yup' is a near-miss for this phrase: it needs the stop. German only (owner, 2026-11-04): nobody addresses 'Jupp' in English, so there is no English head to train, record or publish.",
+ "accept_stems": [
+  "jupp stop",
+  "jupp stopp",
+  "yupp stop",
+  "stop",
+  "stopp"
+ ],
+ "spoken_primary": {
+  "de": "Jupp stop"
+ }
+}

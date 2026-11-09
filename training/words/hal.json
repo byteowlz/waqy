@@ -1,0 +1,50 @@
+{
+ "name": "hal",
+ "trigger": "hey hal",
+ "train_bare": true,
+ "display": "HAL",
+ "kind": "wake",
+ "forms": {
+  "de": [
+   "Hey Hal",
+   "He Hal",
+   "Okay Hal",
+   "Ok Hal",
+   "Hal",
+   "Hal?"
+  ],
+  "en": [
+   "Hey Hal",
+   "Okay Hal",
+   "Ok Hal",
+   "Hal",
+   "Hal?"
+  ]
+ },
+ "confusables": {
+  "de": [
+   "Halle",
+   "Hall",
+   "Hals",
+   "hell",
+   "halt"
+  ],
+  "en": [
+   "hall",
+   "hull",
+   "howl",
+   "hell"
+  ]
+ },
+ "pronunciation_note": "Spoken as the name Hal /hæl/ (or German /haːl/), never spelled H-A-L.",
+ "address_primary": {
+  "de": "Hey",
+  "en": "Hey"
+ },
+ "accept_stems": [
+  "hal",
+  "hal?",
+  "hey",
+  "okay"
+ ]
+}

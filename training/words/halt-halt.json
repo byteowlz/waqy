@@ -1,0 +1,35 @@
+{
+ "name": "halt-halt",
+ "display": "Halt, halt!",
+ "kind": "command",
+ "train_bare": true,
+ "forms": {
+  "de": [
+   "Halt, halt!",
+   "Halt halt"
+  ],
+  "en": [
+   "Halt, halt!",
+   "Halt halt"
+  ]
+ },
+ "confusables": {
+  "de": [
+   "Halt",
+   "halt mal",
+   "Hals",
+   "Hall"
+  ],
+  "en": [
+   "halt",
+   "help",
+   "hulk",
+   "hall"
+  ]
+ },
+ "accept_stems": [
+  "halt halt",
+  "halt, halt"
+ ],
+ "pronunciation_note": "Repetition is the universal panic signal and 'halt' exists in both languages. Fast (two short syllables), and the double word makes an accidental single 'halt' insufficient. Near-misses are single 'halt', 'halt mal', 'help'."
+}

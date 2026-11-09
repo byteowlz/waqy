@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en" data-scheme="oqto-dark">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="color-scheme" content="dark"><title>Wake detector test</title>
+<link rel="stylesheet" href="/tokens.css"><link rel="stylesheet" href="/style.css">
+<script type="module" src="/detect.mjs"></script>
+</head>
+<body>
+<header><a href="/">Wake phrase recordings</a><span>waqy · browser detector test</span></header>
+<main>
+<h1>Test the wake detector</h1>
+<p class="intro">Say the phrases your release defines (for example “Hey Oqto” and “Oqto”) and watch the scores.</p>
+<p class="privacy">Detection runs on this device’s CPU in the browser. In all-day mode only a few seconds around each detection and each “Missed it” press are saved privately on this host, plus how long it listened. “Everything” saves the whole test for transcription. Only record where everyone present agrees.</p>
+<section aria-labelledby="detector-heading" class="input">
+<h2 id="detector-heading">Live detector</h2>
+<div class="actions"><label for="mode">Save<select id="mode"><option value="allday" selected>All day: only around detections</option><option value="full">Everything (short tests)</option><option value="off">Nothing</option></select></label><div class="picker">
+<label for="release">Release<select id="release"></select></label>
+<div class="heads" id="heads"></div>
+<button id="apply" type="button">Load heads</button>
+</div>
+<label for="threshold">Threshold<select id="threshold"><option value="0.3">0.30</option><option value="0.4">0.40</option><option value="0.5">0.50</option><option value="0.6">0.60</option><option value="0.7">0.70</option><option value="0.8">0.80</option><option value="0.9">0.90</option></select></label></div>
+<div id="rows" class="score-rows"></div>
+<div class="actions go"><button id="start" class="primary" disabled>Start</button><button id="stop" disabled>Stop</button></div>
+<div class="actions"><button id="missed" disabled>Missed it</button><button id="false" disabled>Last detection was wrong</button><button id="speak">Play an assistant phrase</button></div>
+<p id="recording" class="hint"></p>
+<p class="hint">The detector is half-duplex: while the host app plays audio, it stops listening and re-arms 350 ms after playback ends, so its own voice cannot wake it.</p>
+<p id="status" role="status" aria-live="polite">Loading…</p>
+<p id="error" role="alert" hidden></p>
+<p id="timing" class="hint"></p>
+</section>
+<section id="review-box" class="review" aria-labelledby="review-heading" hidden>
+<div class="result-head"><h2 id="review-heading">Was it you?</h2><span id="tally"></span></div>
+<p class="hint">Mark each detection: Right if you said the phrase, Wrong if it woke on something else. Only these few seconds are saved.</p>
+<div id="review"></div>
+</section>
+<div class="results" aria-label="Detections">
+<section aria-labelledby="log-heading"><div class="result-head"><h2 id="log-heading">Detections</h2><span>This page only</span></div><pre id="log" class="transcript">No detections yet.</pre></section>
+<section aria-labelledby="about-heading"><div class="result-head"><h2 id="about-heading">What is running</h2><span>Model</span></div><div class="transcript"><p id="provenance"></p></div></section>
+</div>
+<p class="caution">A detection is evidence that the phrase was probably spoken. It is never authentication, speaker identity or permission to act.</p>
+<footer><p>Private tailnet test page · onnxruntime-web WASM on CPU, single thread · scores every 80 ms · saved audio (all-day snippets or full tests) stays on this host for evaluation; training on it needs separate consent.</p></footer>
+</main>
+</body></html>

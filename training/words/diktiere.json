@@ -1,0 +1,98 @@
+{
+ "name": "diktiere",
+ "display": "Diktiere",
+ "trigger": "diktiere",
+ "train_bare": true,
+ "accept_stems": [
+  "diktier",
+  "diktiere",
+  "diktieren"
+ ],
+ "address": {
+  "de": [
+   "Hey",
+   "He"
+  ],
+  "en": [
+   "Hey"
+  ],
+  "es": [
+   "Oye",
+   "Eh"
+  ]
+ },
+ "address_primary": {
+  "de": "Hey",
+  "en": "Hey",
+  "es": "Oye"
+ },
+ "forms": {
+  "de": [
+   "Hey Diktiere",
+   "Hey Diktieren",
+   "Hey Diktier",
+   "He Diktiere",
+   "He Diktieren",
+   "He Diktier",
+   "Diktiere",
+   "Diktieren",
+   "Diktier"
+  ],
+  "en": [
+   "Hey Diktiere",
+   "Diktiere"
+  ],
+  "es": [
+   "Oye Diktieren",
+   "Eh Diktieren",
+   "Diktieren"
+  ]
+ },
+ "confusables": {
+  "de": [
+   "Diktat",
+   "diktiert",
+   "Diktator",
+   "diktierend",
+   "Diktiergerät"
+  ],
+  "en": [
+   "dictate",
+   "dictator"
+  ],
+  "es": [
+   "dictador"
+  ]
+ },
+ "templates": {
+  "de": [
+   "{W}",
+   "{W}.",
+   "{W}!",
+   "{A} {W}.",
+   "{W}, bitte.",
+   "Sag {W} und dann weiter.",
+   "{W}, jetzt."
+  ],
+  "en": [
+   "{W}",
+   "{W}.",
+   "{W}!",
+   "{A} {W}.",
+   "{W}, please.",
+   "Say {W} and then carry on.",
+   "{W}, now."
+  ],
+  "es": [
+   "{W}",
+   "{W}.",
+   "¡{W}!",
+   "{A} {W}.",
+   "{W}, por favor.",
+   "Di {W} y sigue.",
+   "{W}, ahora."
+  ]
+ },
+ "note": "German imperative form of the same command; kept as its own head because the word differs from the English one acoustically.",
+ "policy": "command-bare"
+}

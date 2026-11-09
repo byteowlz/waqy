@@ -1,0 +1,13 @@
+[project]
+name = "wake-training"
+version = "0.1.0"
+description = "Clean-licence training pipeline for the Oqto wake model (livekit-wakeword method)"
+requires-python = ">=3.11,<3.13"
+dependencies = [
+  "livekit-wakeword[train,eval,export] @ git+https://github.com/livekit/livekit-wakeword@cdb82b8ebc179b216e1c5bf360dbdc1ccd5288f2",
+  "piper-tts==1.3.0",
+  "pyroomacoustics>=0.8",
+  "soundfile>=0.12",
+  "soxr>=0.5",
+  "datasets>=3",
+]

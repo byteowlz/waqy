@@ -1,0 +1,110 @@
+{
+ "name": "pi",
+ "address_variants": {"de": ["Yo"], "en": ["Yo"]},
+ "trigger": "hey pi",
+ "train_bare": true,
+ "forms": {
+  "de": [
+   "Hey Pi",
+   "Yo Pi",
+   "He Pi",
+   "Pi",
+   "Pi?"
+  ],
+  "en": [
+   "Hey Pi",
+   "Yo Pi",
+   "Pi",
+   "Pi?"
+  ],
+  "es": [
+   "Oye Pi",
+   "Eh Pi",
+   "Pi",
+   "Pi?"
+  ]
+ },
+ "confusables": {
+  "de": [
+   "Piep",
+   "Pille",
+   "Biene",
+   "Pia",
+   "Typ"
+  ],
+  "en": [
+   "pea",
+   "pee",
+   "pry",
+   "pipe",
+   "pilot",
+   "spy"
+  ],
+  "es": [
+   "Pie",
+   "Pía",
+   "Pis",
+   "Pin",
+   "Pico"
+  ]
+ },
+ "templates": {
+  "de": [
+   "{W}",
+   "{A} {W}.",
+   "{A} {W}, mach das Licht an.",
+   "Also, äh, {A} {W}, spiel Musik.",
+   "{A} {W}, wie spät ist es?",
+   "Hast du {W} schon ausprobiert?",
+   "Ich habe {W} gestern installiert.",
+   "Mit {W} geht das viel schneller.",
+   "{A} {W}, starte einen Timer."
+  ],
+  "en": [
+   "{W}",
+   "{A} {W}.",
+   "{A} {W}, turn on the lights.",
+   "So, uhm, {A} {W}, play some music.",
+   "{A} {W}, what time is it?",
+   "Have you tried {W} yet?",
+   "I installed {W} yesterday.",
+   "With {W} this is much faster.",
+   "{A} {W}, set a timer for ten minutes."
+  ],
+  "es": [
+   "{W}",
+   "{A} {W}.",
+   "{A} {W}, enciende la luz.",
+   "Vale, {A} {W}, pon música.",
+   "{A} {W}, ¿qué hora es?",
+   "¿Ya probaste {W}?",
+   "Ayer instalé {W}.",
+   "Con {W} esto va mucho más rápido.",
+   "{A} {W}, pon un temporizador."
+  ]
+ },
+ "address": {
+  "de": [
+   "Hey",
+   "He"
+  ],
+  "en": [
+   "Hey"
+  ],
+  "es": [
+   "Oye",
+   "Eh",
+   "Oye"
+  ]
+ },
+ "display": "Pi",
+ "address_primary": {
+  "de": "Hey",
+  "en": "Hey",
+  "es": "Oye"
+ },
+ "accept_stems": [
+  "pie"
+ ],
+ "pronunciation_note": "Same-sound spellings found by an espeak-ng IPA audit (2026-11-04) moved from confusables to accept_stems: Pie, pie."
+}

@@ -1,0 +1,53 @@
+{
+ "name": "macbook",
+ "display": "MacBook",
+ "kind": "wake",
+ "train_bare": true,
+ "forms": {
+  "de": [
+   "Hey MacBook",
+   "He MacBook",
+   "MacBook",
+   "MacBook?"
+  ],
+  "en": [
+   "Hey MacBook",
+   "MacBook",
+   "MacBook?"
+  ]
+ },
+ "confusables": {
+  "de": [
+   "Mac",
+   "Notebook",
+   "Mappe",
+   "Mac Burt"
+  ],
+  "en": [
+   "mac",
+   "notebook",
+   "notepad",
+   "mac bark"
+  ]
+ },
+ "accept_stems": [
+  "hey",
+  "okay",
+  "macbook",
+  "mac book"
+ ],
+ "pronunciation_note": "Owner request 2026-11-04. Shares the first word with Mac Studio and Mac Mini, so each head trains with the other two as negatives (the cross-word set). German speakers say Mac with a hard k; 'Mac Book' is the same sound and therefore an accepted spelling.",
+ "address": {
+  "de": [
+   "Hey",
+   "He"
+  ],
+  "en": [
+   "Hey"
+  ]
+ },
+ "address_primary": {
+  "de": "Hey",
+  "en": "Hey"
+ }
+}

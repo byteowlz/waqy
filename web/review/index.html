@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en" data-scheme="oqto-dark">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="dark"><title>waqy pronunciation review</title>
+<style>
+:root{--bg:#222624;--surface:#2d312f;--fg:#e8ecea;--muted:#b2b9b5;--primary:#3ba77c;--rule:#3a3f41}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.55 system-ui,-apple-system,sans-serif}
+main{max-width:900px;margin:auto;padding:24px 20px 60px}h1{font-size:1.5rem;margin:0 0 6px}
+p.lede{color:var(--muted);margin:0 0 20px}h2{font-size:1.05rem;margin:28px 0 10px;padding-top:14px;border-top:1px solid var(--rule)}
+.spell{background:var(--surface);border-radius:10px;padding:12px 14px;margin:10px 0}
+.spell h3{margin:0 0 8px;font-size:1rem;display:flex;justify-content:space-between;gap:10px;align-items:center;flex-wrap:wrap}
+.spell h3 span.heard{font-weight:400;color:var(--muted);font-size:.85rem}
+.clip{display:flex;align-items:center;gap:10px;padding:6px 0;border-top:1px solid var(--rule)}
+.clip:first-of-type{border-top:0}
+.clip button{min-height:36px;padding:4px 12px;font:inherit;background:var(--primary);color:#10221a;border:0;border-radius:8px;cursor:pointer}
+.clip .text{flex:1}.clip .heard{color:var(--muted);font-size:.85rem;font-family:ui-monospace,Menlo,monospace}
+.vote{margin-top:8px;color:var(--muted);font-size:.9rem;display:flex;gap:14px;flex-wrap:wrap;align-items:center}
+.vote label{display:flex;gap:6px;align-items:center;cursor:pointer}
+.vote button{min-height:34px;padding:4px 12px;font:inherit;background:var(--surface);color:var(--fg);border:1px solid var(--rule);border-radius:8px;cursor:pointer}
+#status{color:var(--primary);font-size:.9rem;min-height:1.2em}
+footer{margin-top:32px;color:var(--muted);font-size:.85rem}
+</style>
+</head>
+<body><main>
+<h1>pronunciation review</h1>
+<p class="lede">Listen to each spelling and pick the one that sounds right. "heard" is what an ASR screener transcribed — a reference, not the answer. Your vote is stored on this host and read back by the training pipeline.</p>
+<div id="app"></div>
+<footer>Private review page. Clips are synthetic unless noted; votes stay on this host.</footer>
+</main>
+<script type="module" src="/app.mjs"></script>
+</body></html>

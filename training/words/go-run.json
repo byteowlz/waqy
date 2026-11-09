@@ -1,0 +1,38 @@
+{
+ "name": "go-run",
+ "trigger": "go run",
+ "train_bare": true,
+ "display": "Go run",
+ "kind": "command",
+ "forms": {
+  "de": [
+   "Go run",
+   "Los laufen"
+  ],
+  "en": [
+   "Go run"
+  ]
+ },
+ "confusables": {
+  "de": [
+   "go around",
+   "grow run",
+   "Ko run"
+  ],
+  "en": [
+   "go around",
+   "grow run",
+   "gun"
+  ]
+ },
+ "pronunciation_note": "Two-word command trigger; the pair matters more than either word.",
+ "address_primary": {
+  "de": "Hey",
+  "en": "Hey"
+ },
+ "accept_stems": [
+  "laufen",
+  "los",
+  "run"
+ ]
+}

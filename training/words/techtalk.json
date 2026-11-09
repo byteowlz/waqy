@@ -1,0 +1,12 @@
+{
+ "name": "techtalk",
+ "display": "TechTalk",
+ "kind": "wake",
+ "train_bare": true,
+ "forms": {"de": ["TechTalk", "TechTalk?"], "en": ["TechTalk", "TechTalk?"]},
+ "confusables": {"de": ["Tic Tac", "Tech Stack", "Check Talk", "Tech"], "en": ["tic tac", "tech stack", "check talk", "tech"]},
+ "accept_stems": ["techtalk", "tech talk"],
+ "pronunciation_note": "Show name, said as two words. 'Tech talk' is the same sound, so it is an accepted spelling, not a look-alike.",
+ "address": {"de": ["Hey", "He"], "en": ["Hey"]},
+ "address_primary": {"de": "Hey", "en": "Hey"}
+}

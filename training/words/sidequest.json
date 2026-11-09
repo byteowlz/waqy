@@ -1,0 +1,48 @@
+{
+ "name": "sidequest",
+ "display": "Sidequest",
+ "kind": "wake",
+ "trigger": "hey sidequest",
+ "train_bare": true,
+ "forms": {
+  "de": [
+   "Hey Sidequest",
+   "He Sidequest",
+   "Okay Sidequest",
+   "Ok Sidequest",
+   "Sidequest",
+   "Sidequest?"
+  ],
+  "en": [
+   "Hey Sidequest",
+   "Okay Sidequest",
+   "Ok Sidequest",
+   "Sidequest",
+   "Sidequest?"
+  ]
+ },
+ "confusables": {
+  "de": [
+   "Seit Quest",
+   "Seitenquest",
+   "Seit",
+   "Seiten quest"
+  ],
+  "en": [
+   "side guest",
+   "sight quest",
+   "sidekick"
+  ]
+ },
+ "pronunciation_note": "Two-word compound. 'side quest' is the same words and sound, so it is a positive spelling; 'side guest' and 'sight quest' are the negatives.",
+ "address_primary": {
+  "de": "Hey",
+  "en": "Hey"
+ },
+ "accept_stems": [
+  "quest",
+  "side",
+  "side quest",
+  "sidequest"
+ ]
+}

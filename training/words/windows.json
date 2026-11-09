@@ -1,0 +1,48 @@
+{
+ "name": "windows",
+ "display": "Windows",
+ "kind": "wake",
+ "train_bare": false,
+ "forms": {
+  "de": [
+   "Hey Windows",
+   "He Windows"
+  ],
+  "en": [
+   "Hey Windows"
+  ]
+ },
+ "confusables": {
+  "de": [
+   "Fenster",
+   "Wind",
+   "Gewinde",
+   "Winseln"
+  ],
+  "en": [
+   "window",
+   "wins",
+   "wind us",
+   "win those"
+  ]
+ },
+ "accept_stems": [
+  "hey",
+  "okay",
+  "windows"
+ ],
+ "pronunciation_note": "Owner request 2026-11-04, addressed-only: 'windows' is the everyday plural, so a bare head would fire on ordinary speech ('open two windows').",
+ "address": {
+  "de": [
+   "Hey",
+   "He"
+  ],
+  "en": [
+   "Hey"
+  ]
+ },
+ "address_primary": {
+  "de": "Hey",
+  "en": "Hey"
+ }
+}

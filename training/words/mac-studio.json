@@ -1,0 +1,52 @@
+{
+ "name": "mac-studio",
+ "display": "Mac Studio",
+ "kind": "wake",
+ "train_bare": true,
+ "forms": {
+  "de": [
+   "Hey Mac Studio",
+   "He Mac Studio",
+   "Mac Studio",
+   "Mac Studio?"
+  ],
+  "en": [
+   "Hey Mac Studio",
+   "Mac Studio",
+   "Mac Studio?"
+  ]
+ },
+ "confusables": {
+  "de": [
+   "Mac",
+   "Studio",
+   "Stuhl",
+   "Student"
+  ],
+  "en": [
+   "mac",
+   "studio",
+   "study",
+   "studiocam"
+  ]
+ },
+ "accept_stems": [
+  "hey",
+  "okay",
+  "mac studio"
+ ],
+ "pronunciation_note": "Owner request 2026-11-04. Same first word as MacBook and Mac Mini: the cross-word negatives matter here more than usual.",
+ "address": {
+  "de": [
+   "Hey",
+   "He"
+  ],
+  "en": [
+   "Hey"
+  ]
+ },
+ "address_primary": {
+  "de": "Hey",
+  "en": "Hey"
+ }
+}

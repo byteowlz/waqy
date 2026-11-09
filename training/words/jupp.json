@@ -1,0 +1,42 @@
+{
+ "name": "jupp",
+ "trigger": "hey jupp",
+ "train_bare": false,
+ "display": "Jupp",
+ "kind": "wake",
+ "forms": {
+  "de": [
+   "Hey Jupp",
+   "He Jupp"
+  ]
+ },
+ "confusables": {
+  "de": [
+   "Hey Job",
+   "Hey Sepp",
+   "Hey Jo",
+   "Hey du",
+   "jap",
+   "jep",
+   "Suppe"
+  ]
+ },
+ "address": {
+  "de": [
+   "Hey",
+   "He"
+  ]
+ },
+ "address_primary": {
+  "de": "Hey"
+ },
+ "spoken_primary": {
+  "de": "Jupp"
+ },
+ "pronunciation_note": "Rhineland short form of Josef, said with a German j (like English y) and a short u. Addressed-only (train_bare false): bare 'Jupp'/'jup' is also colloquial for yes in German and sounds like English 'yup', so a bare head would fire on every casual yes, and those spellings are accept_stems, never look-alikes. English synthesis uses the spelling 'Yupp' so TTS does not say an English j as in 'jump'; pending owner listening review. German only (owner, 2026-11-04): nobody addresses 'Jupp' in English, so there is no English head to train, record or publish.",
+ "accept_stems": [
+  "hey",
+  "jupp",
+  "jup"
+ ]
+}

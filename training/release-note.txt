@@ -1,0 +1,4 @@
+Isolated phrases and context sentences from Piper (CC0/CC-BY corpora), from spqx with Qwen3-TTS VoiceDesign voices designed from text descriptions (Apache-2.0 GGUF; no cloned speaker), and the shared spqx designed-voice wake corpus (64 voices per language: bare, command, embedded, hesitant and stop phrases, plus look-alike negatives). Owner recordings: first sitting e9f2af53/d82c43e3 and live test 6176d748 under explicit consent; the second sitting d19ae2f1 is held out and was never trained on.
+
+hey_oqto: trained on the shared corpus positives plus our own data, 40k steps (0.935 recall on the corpus's own held-out voices, 18/18 owner takes, 0/36 owner look-alikes; costs ~0.12 general false wakes/h and 18 English in-sentence catches versus the previous head).
+oqto: the previously shipped head, kept after owner listening: the shared-corpus bare-word head needed more training to be as easy to trigger.

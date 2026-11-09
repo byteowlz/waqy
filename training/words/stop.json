@@ -1,0 +1,38 @@
+{
+ "name": "stop",
+ "trigger": "stop",
+ "display": "Stop",
+ "kind": "command",
+ "train_bare": true,
+ "forms": {
+  "de": [
+   "Stop",
+   "Stop!"
+  ],
+  "en": [
+   "Stop",
+   "Stop!"
+  ]
+ },
+ "confusables": {
+  "de": [
+   "Stoff",
+   "Topp",
+   "Shop",
+   "stopf",
+   "Stock"
+  ],
+  "en": [
+   "shop",
+   "top",
+   "stomp",
+   "stock",
+   "stuff"
+  ]
+ },
+ "pronunciation_note": "Command word: bare only, never addressed. German Stopp and English stop are the same sound, so both are accepted spellings. 'Stop!' is the emphatic delivery of the same word.",
+ "accept_stems": [
+  "stop",
+  "stopp"
+ ]
+}

@@ -1,0 +1,208 @@
+{
+ "evidence/pilot-1/de-oqto.eval-default.json": {
+  "heldout_wake": {
+   "files": 15,
+   "detected": 15,
+   "errors": 0,
+   "top5": [
+    0.643,
+    0.635,
+    0.628,
+    0.622,
+    0.619
+   ]
+  },
+  "heldout_confusables": {
+   "files": 4,
+   "detected": 4,
+   "errors": 0,
+   "top5": [
+    0.631,
+    0.623,
+    0.617,
+    0.598
+   ]
+  },
+  "fleurs_de_test": {
+   "files": 60,
+   "detected": 60,
+   "errors": 0,
+   "false_accepts_per_hour": 1705.5,
+   "seconds": 774.66,
+   "top5": [
+    0.644,
+    0.644,
+    0.643,
+    0.639,
+    0.638
+   ]
+  },
+  "nonspeech_test": {
+   "files": 24,
+   "detected": 20,
+   "errors": 0,
+   "top5": [
+    0.64,
+    0.64,
+    0.638,
+    0.635,
+    0.635
+   ]
+  },
+  "args": []
+ },
+ "evidence/pilot-1/en-oqto.eval-default.json": {
+  "heldout_wake": {
+   "files": 15,
+   "detected": 11,
+   "errors": 0,
+   "top5": [
+    0.588,
+    0.584,
+    0.582,
+    0.577,
+    0.571
+   ]
+  },
+  "heldout_confusables": {
+   "files": 4,
+   "detected": 4,
+   "errors": 0,
+   "top5": [
+    0.589,
+    0.579,
+    0.554,
+    0.53
+   ]
+  },
+  "fleurs_de_test": {
+   "files": 60,
+   "detected": 59,
+   "errors": 0,
+   "false_accepts_per_hour": 594.8,
+   "seconds": 774.66,
+   "top5": [
+    0.611,
+    0.602,
+    0.6,
+    0.599,
+    0.596
+   ]
+  },
+  "nonspeech_test": {
+   "files": 24,
+   "detected": 7,
+   "errors": 0,
+   "top5": [
+    0.592,
+    0.572,
+    0.571,
+    0.568,
+    0.542
+   ]
+  },
+  "args": []
+ },
+ "evidence/pilot-1/de-oqto.eval-vad3.json": {
+  "heldout_wake": {
+   "files": 15,
+   "detected": 15,
+   "errors": 0,
+   "top5": [
+    0.635,
+    0.628,
+    0.623,
+    0.619,
+    0.618
+   ]
+  },
+  "heldout_confusables": {
+   "files": 4,
+   "detected": 4,
+   "errors": 0,
+   "top5": [
+    0.631,
+    0.624,
+    0.623,
+    0.609
+   ]
+  },
+  "fleurs_de_test": {
+   "files": 60,
+   "detected": 60,
+   "errors": 0,
+   "false_accepts_per_hour": 1487.1,
+   "seconds": 774.66,
+   "top5": [
+    0.65,
+    0.644,
+    0.644,
+    0.643,
+    0.639
+   ]
+  },
+  "nonspeech_test": {
+   "files": 24,
+   "detected": 20,
+   "errors": 0,
+   "top5": [
+    0.642,
+    0.64,
+    0.638,
+    0.635,
+    0.635
+   ]
+  },
+  "args": [
+   "--vad",
+   "3"
+  ]
+ },
+ "evidence/trainset-1/eval-default.json": {
+  "heldout_wake": {
+   "files": 15,
+   "detected": 1,
+   "errors": 0,
+   "top5": [
+    0.827
+   ]
+  },
+  "heldout_confusables": {
+   "files": 4,
+   "detected": 1,
+   "errors": 0,
+   "top5": [
+    0.862
+   ]
+  },
+  "fleurs_de_test": {
+   "files": 60,
+   "detected": 8,
+   "errors": 0,
+   "false_accepts_per_hour": 37.2,
+   "seconds": 774.66,
+   "top5": [
+    0.968,
+    0.956,
+    0.956,
+    0.956,
+    0.899
+   ]
+  },
+  "nonspeech_test": {
+   "files": 24,
+   "detected": 0,
+   "errors": 0,
+   "top5": []
+  },
+  "args": []
+ },
+ "trainset-1/counts": {
+  "train/oqto": 15,
+  "train/hey_oqto": 16,
+  "train/none": 1155,
+  "test/oqto": 8,
+  "test/hey_oqto": 7,
+  "test/none": 98
+ }
+}

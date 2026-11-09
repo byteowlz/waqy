@@ -1,0 +1,110 @@
+{
+ "name": "stopp",
+ "display": "Stopp",
+ "trigger": "stopp",
+ "train_bare": true,
+ "accept_stems": [
+  "stopp",
+  "stop",
+  "stoppt",
+  "stoppe",
+  "stops"
+ ],
+ "address": {
+  "de": [
+   "Hey",
+   "He"
+  ],
+  "en": [
+   "Hey"
+  ],
+  "es": [
+   "Oye",
+   "Eh"
+  ]
+ },
+ "address_primary": {
+  "de": "Hey",
+  "en": "Hey",
+  "es": "Oye"
+ },
+ "forms": {
+  "de": [
+   "Stopp",
+   "Stopp!",
+   "Stopp?",
+   "Stop",
+   "Hey Stopp"
+  ],
+  "en": [
+   "Stop",
+   "Stop!",
+   "Stop?",
+   "Stopp",
+   "Hey Stop"
+  ],
+  "es": [
+   "Stop",
+   "¡Para!",
+   "Stop!",
+   "Alto",
+   "Oye Stop"
+  ]
+ },
+ "confusables": {
+  "de": [
+   "Stop",
+   "Stoppuhr",
+   "Stoppschild",
+   "Stoppel",
+   "Stoppt",
+   "Top",
+   "Shop",
+   "Stopp bitte nicht"
+  ],
+  "en": [
+   "stop it",
+   "shop",
+   "top",
+   "stopped",
+   "stopping",
+   "non-stop",
+   "stops"
+  ],
+  "es": [
+   "stop",
+   "estopa",
+   "top",
+   "parada",
+   "parar",
+   "alto"
+  ]
+ },
+ "templates": {
+  "de": [
+   "{W}",
+   "{W}!",
+   "{A} {W}.",
+   "{W}, bitte.",
+   "Sag {W} zu dem Lied.",
+   "{W} und dann weiter."
+  ],
+  "en": [
+   "{W}",
+   "{W}!",
+   "{A} {W}.",
+   "{W}, please.",
+   "Say {W} to the song.",
+   "{W} and then carry on."
+  ],
+  "es": [
+   "{W}",
+   "¡{W}!",
+   "{A} {W}.",
+   "{W}, por favor.",
+   "Di {W} a la canción.",
+   "{W} y sigue."
+  ]
+ },
+ "note": "Single-word command trigger, offered optionally: it is the phrase a dictation host matches on the transcript to pause (eaRS 'stop_phrases'), and an optional acoustic head for hosts that want it without a transcript. Bare-only by nature; keep the runtime gate in mind - a bare head may only report at a speech onset after silence, otherwise ordinary speech fires it."
+}

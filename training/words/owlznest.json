@@ -1,0 +1,89 @@
+{
+ "name": "owlznest",
+ "display": "Owlznest",
+ "trigger": "hey owlznest",
+ "train_bare": true,
+ "address": {
+  "de": [
+   "Hey",
+   "He"
+  ],
+  "en": [
+   "Hey"
+  ],
+  "es": [
+   "Oye",
+   "Eh",
+   "Oye"
+  ]
+ },
+ "address_primary": {
+  "de": "Hey",
+  "en": "Hey",
+  "es": "Oye"
+ },
+ "forms": {
+  "de": [
+   "Hey Owlznest",
+   "He Owlznest",
+   "Owlznest",
+   "Owlznest?"
+  ],
+  "en": [
+   "Hey Owlznest",
+   "Owlznest",
+   "Owlznest?"
+  ],
+  "es": [
+   "Oye Owlznest",
+   "Eh Owlznest",
+   "Owlznest",
+   "Owlznest?"
+  ]
+ },
+ "confusables": {
+  "de": [
+   "Eulennest",
+   "Owls Nest"
+  ],
+  "en": [
+   "owls nest",
+   "owl nest",
+   "out nest",
+   "old nest"
+  ],
+  "es": [
+   "nido de búho",
+   "owl nest"
+  ]
+ },
+ "templates": {
+  "de": [
+   "{W}",
+   "{A} {W}.",
+   "{A} {W}, mach das Licht an.",
+   "Also, äh, {A} {W}, spiel Musik.",
+   "{A} {W}, wie spät ist es?",
+   "Hast du {W} schon ausprobiert?",
+   "Mit {W} geht das viel schneller."
+  ],
+  "en": [
+   "{W}",
+   "{A} {W}.",
+   "{A} {W}, turn on the lights.",
+   "So, uhm, {A} {W}, play some music.",
+   "{A} {W}, what time is it?",
+   "Have you tried {W} yet?",
+   "With {W} this is much faster."
+  ],
+  "es": [
+   "{W}",
+   "{A} {W}.",
+   "{A} {W}, enciende la luz.",
+   "Vale, {A} {W}, pon música.",
+   "{A} {W}, ¿qué hora es?",
+   "¿Ya probaste {W}?",
+   "Con {W} esto va mucho más rápido."
+  ]
+ }
+}

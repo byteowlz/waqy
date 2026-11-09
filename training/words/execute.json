@@ -1,0 +1,41 @@
+{
+ "name": "execute",
+ "trigger": "execute",
+ "train_bare": true,
+ "display": "Execute",
+ "kind": "command",
+ "forms": {
+  "de": [
+   "Execute",
+   "Bitte ausführen"
+  ],
+  "en": [
+   "Execute",
+   "Please execute"
+  ]
+ },
+ "confusables": {
+  "de": [
+   "executable",
+   "exec",
+   "X cute",
+   "es kjut"
+  ],
+  "en": [
+   "X cute",
+   "executor",
+   "eggs a cute"
+  ]
+ },
+ "pronunciation_note": "Command word: bare only, no address. Collected as a command trigger, not a name.",
+ "address_primary": {
+  "de": "Hey",
+  "en": "Hey"
+ },
+ "accept_stems": [
+  "ausführen",
+  "bitte",
+  "execute",
+  "please"
+ ]
+}

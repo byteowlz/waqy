@@ -1,0 +1,13 @@
+# Public-safe example. Real profiles belong in the private checkout's .internal/.
+#:schema ./head-export.schema.json
+
+[export]
+repo = "byteowlz/waqy"
+# source = "/path/to/immutable/source-release"
+# name = "public-1"
+# heads = ["hey_hex", "hex"]
+# metadata = "head-review.json"
+# consent = "head-consent.json"
+# catalog = "catalog.json" # offline preview only; omit before --apply
+
+# apply, credentials and publication consent cannot be enabled by this config.

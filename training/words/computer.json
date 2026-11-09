@@ -1,0 +1,52 @@
+{
+ "name": "computer",
+ "address_variants": {"de": ["Yo"], "en": ["Yo"]},
+ "trigger": "hey computer",
+ "train_bare": true,
+ "display": "Computer",
+ "kind": "wake",
+ "forms": {
+  "de": [
+   "Hey Computer",
+   "Yo Computer",
+   "He Computer",
+   "Okay Computer",
+   "Ok Computer",
+   "Computer",
+   "Computer?"
+  ],
+  "en": [
+   "Hey Computer",
+   "Yo Computer",
+   "Okay Computer",
+   "Ok Computer",
+   "Computer",
+   "Computer?"
+  ]
+ },
+ "confusables": {
+  "de": [
+   "Komputer",
+   "Computa",
+   "Kombi",
+   "Kompressor"
+  ],
+  "en": [
+   "commuter",
+   "compute her",
+   "compuda",
+   "computers"
+  ]
+ },
+ "pronunciation_note": "Loanword in German; keep the German /kɔmˈpuːtɐ/ and English /kəmˈpjuːtər/ apart as separate languages.",
+ "address_primary": {
+  "de": "Hey",
+  "en": "Hey"
+ },
+ "accept_stems": [
+  "computer",
+  "computer?",
+  "hey",
+  "okay"
+ ]
+}

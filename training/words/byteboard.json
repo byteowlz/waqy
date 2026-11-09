@@ -1,0 +1,92 @@
+{
+ "name": "byteboard",
+ "display": "Byteboard",
+ "trigger": "hey byteboard",
+ "train_bare": true,
+ "address": {
+  "de": [
+   "Hey",
+   "He"
+  ],
+  "en": [
+   "Hey"
+  ],
+  "es": [
+   "Oye",
+   "Eh",
+   "Oye"
+  ]
+ },
+ "address_primary": {
+  "de": "Hey",
+  "en": "Hey",
+  "es": "Oye"
+ },
+ "forms": {
+  "de": [
+   "Hey Byteboard",
+   "He Byteboard",
+   "Byteboard",
+   "Byteboard?"
+  ],
+  "en": [
+   "Hey Byteboard",
+   "Byteboard",
+   "Byteboard?"
+  ],
+  "es": [
+   "Oye Byteboard",
+   "Eh Byteboard",
+   "Byteboard",
+   "Byteboard?"
+  ]
+ },
+ "confusables": {
+  "de": [
+   "Brett",
+   "Beetboard"
+  ],
+  "en": [
+   "whiteboard",
+   "keyboard"
+  ],
+  "es": [
+   "tablero de bytes",
+   "byte board"
+  ]
+ },
+ "templates": {
+  "de": [
+   "{W}",
+   "{A} {W}.",
+   "{A} {W}, mach das Licht an.",
+   "Also, äh, {A} {W}, spiel Musik.",
+   "{A} {W}, wie spät ist es?",
+   "Hast du {W} schon ausprobiert?",
+   "Mit {W} geht das viel schneller."
+  ],
+  "en": [
+   "{W}",
+   "{A} {W}.",
+   "{A} {W}, turn on the lights.",
+   "So, uhm, {A} {W}, play some music.",
+   "{A} {W}, what time is it?",
+   "Have you tried {W} yet?",
+   "With {W} this is much faster."
+  ],
+  "es": [
+   "{W}",
+   "{A} {W}.",
+   "{A} {W}, enciende la luz.",
+   "Vale, {A} {W}, pon música.",
+   "{A} {W}, ¿qué hora es?",
+   "¿Ya probaste {W}?",
+   "Con {W} esto va mucho más rápido."
+  ]
+ },
+ "accept_stems": [
+  "byte board",
+  "bite board"
+ ],
+ "pronunciation_note": "Same-sound spellings found by an espeak-ng IPA audit (2026-11-04) moved from confusables to accept_stems: byte board, bite board."
+}

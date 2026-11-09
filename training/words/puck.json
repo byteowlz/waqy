@@ -1,0 +1,54 @@
+{
+ "name": "puck",
+ "display": "Puck",
+ "kind": "wake",
+ "train_bare": true,
+ "forms": {
+  "de": [
+   "Hey Puck",
+   "He Puck",
+   "Puck",
+   "Puck?"
+  ],
+  "en": [
+   "Hey Puck",
+   "Puck",
+   "Puck?"
+  ]
+ },
+ "confusables": {
+  "de": [
+   "Buck",
+   "Pakt",
+   "Punk",
+   "Bock",
+   "Pück"
+  ],
+  "en": [
+   "pack",
+   "back",
+   "bug",
+   "pug",
+   "punk"
+  ]
+ },
+ "accept_stems": [
+  "hey",
+  "okay",
+  "puck"
+ ],
+ "pronunciation_note": "Owner request 2026-11-04. Short u (German 'Puck' as in ice hockey, English 'puck'); the final k is unvoiced in both. 'Pakt'/'pack' have a different vowel: near-misses. Bare 'Puck' is one syllable, so the addressed head is the trigger and the bare head needs listening before binding.",
+ "address": {
+  "de": [
+   "Hey",
+   "He"
+  ],
+  "en": [
+   "Hey"
+  ]
+ },
+ "address_primary": {
+  "de": "Hey",
+  "en": "Hey"
+ }
+}

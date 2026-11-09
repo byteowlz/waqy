@@ -1,0 +1,28 @@
+{
+ "name": "homeassistant",
+ "address_variants": {"de": ["Yo"], "en": ["Yo"]},
+ "display": "Home Assistant",
+ "kind": "wake",
+ "trigger": "hey home assistant",
+ "train_bare": false,
+ "forms": {
+  "de": [
+   "Hey Home Assistant",
+   "Yo Home Assistant",
+   "He Home Assistant"
+  ],
+  "en": [
+   "Hey Home Assistant",
+   "Yo Home Assistant"
+  ]
+ },
+ "spoken_primary": {"de": "Home Assistant", "en": "Home Assistant"},
+ "address": {"de": ["Hey", "He"], "en": ["Hey"]},
+ "address_primary": {"de": "Hey", "en": "Hey"},
+ "accept_stems": ["home assistant", "homeassistant", "home-assistant"],
+ "confusables": {
+  "de": ["Home", "Assistant", "HomePod", "Heimassistent", "Homer Simpson", "Home assistance"],
+  "en": ["home", "assistant", "HomePod", "home assistance", "home assignment", "Homer Simpson"]
+ },
+ "pronunciation_note": "Owner requested Hey Homeassistant. Use the spoken product spelling Home Assistant, not the concatenated display slug. Addressed-only; the product name alone is not a trigger. Pronunciation is provisional until generated clips are listened to; no published head yet."
+}

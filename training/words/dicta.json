@@ -1,0 +1,95 @@
+{
+ "name": "dicta",
+ "display": "Dicta",
+ "trigger": "dicta",
+ "train_bare": true,
+ "accept_stems": [
+  "dicta",
+  "dictar"
+ ],
+ "address": {
+  "de": [
+   "Hey",
+   "He"
+  ],
+  "en": [
+   "Hey"
+  ],
+  "es": [
+   "Oye",
+   "Eh"
+  ]
+ },
+ "address_primary": {
+  "de": "Hey",
+  "en": "Hey",
+  "es": "Oye"
+ },
+ "forms": {
+  "de": [
+   "Hey Dicta",
+   "He Dicta",
+   "Dicta"
+  ],
+  "en": [
+   "Hey Dicta",
+   "Dicta"
+  ],
+  "es": [
+   "Oye Dicta",
+   "Oye Dictar",
+   "Eh Dicta",
+   "Eh Dictar",
+   "Dicta",
+   "Dictar"
+  ]
+ },
+ "confusables": {
+  "de": [
+   "Diktat",
+   "diktiert"
+  ],
+  "en": [
+   "dictate",
+   "dictator",
+   "dictum"
+  ],
+  "es": [
+   "dictador",
+   "dictado",
+   "dictadura",
+   "dicha"
+  ]
+ },
+ "templates": {
+  "de": [
+   "{W}",
+   "{W}.",
+   "{W}!",
+   "{A} {W}.",
+   "{W}, bitte.",
+   "Sag {W} und dann weiter.",
+   "{W}, jetzt."
+  ],
+  "en": [
+   "{W}",
+   "{W}.",
+   "{W}!",
+   "{A} {W}.",
+   "{W}, please.",
+   "Say {W} and then carry on.",
+   "{W}, now."
+  ],
+  "es": [
+   "{W}",
+   "{W}.",
+   "¡{W}!",
+   "{A} {W}.",
+   "{W}, por favor.",
+   "Di {W} y sigue.",
+   "{W}, ahora."
+  ]
+ },
+ "note": "Spanish imperative for the same command.",
+ "policy": "command-bare"
+}

@@ -1,0 +1,56 @@
+{
+ "name": "chatgpt",
+ "display": "ChatGPT",
+ "kind": "wake",
+ "train_bare": true,
+ "forms": {
+  "de": [
+   "Hey ChatGPT",
+   "He ChatGPT",
+   "ChatGPT",
+   "ChatGPT?"
+  ],
+  "en": [
+   "Hey ChatGPT",
+   "ChatGPT",
+   "ChatGPT?"
+  ]
+ },
+ "confusables": {
+  "de": [
+   "Chat",
+   "GPT",
+   "Chat GTP",
+   "Schach GPT"
+  ],
+  "en": [
+   "chat",
+   "gpt",
+   "chat gtp",
+   "chad gpt"
+  ]
+ },
+ "accept_stems": [
+  "chatgpt",
+  "chat gpt",
+  "chat g p t"
+ ],
+ "pronunciation_note": "Owner request 2026-11-04. German speakers say 'Chat' with a German ch, so spoken_primary spells it 'Chat GPT' for synthesis. Bare 'Chat' and 'GPT' alone are near-misses, not the phrase.",
+ "address": {
+  "de": [
+   "Hey",
+   "He"
+  ],
+  "en": [
+   "Hey"
+  ]
+ },
+ "address_primary": {
+  "de": "Hey",
+  "en": "Hey"
+ },
+ "spoken_primary": {
+  "de": "Chat GPT",
+  "en": "Chat GPT"
+ }
+}

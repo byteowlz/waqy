@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en" data-scheme="oqto-dark">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="color-scheme" content="dark"><title>Wake words · waqy</title>
+<link rel="stylesheet" href="/tokens.css"><link rel="stylesheet" href="/heads.css">
+<script type="module" src="/heads.mjs"></script>
+</head>
+<body data-phase="loading">
+<main class="shell">
+<header class="topbar">
+  <div class="brand"><h1>Wake words</h1><a href="/">Record phrases</a></div>
+  <div class="controls">
+    <details id="release-options"><summary>Releases <span id="release-count"></span></summary><div class="disclosure">
+      <h2>Compare releases</h2><p id="release-hint">Choose the versions to run together. Audio saves only when Record audio is enabled.</p>
+      <fieldset id="releases"><legend class="sr-only">Available releases</legend></fieldset>
+    </div></details>
+    <details id="details"><summary>Details</summary><div class="disclosure">
+      <h2>Runtime</h2><p id="provenance">Loading model inventory…</p><p id="runtime-detail">Not listening.</p><p id="error-detail" hidden></p>
+      <p>Model sizes are file bytes, not RAM. The realtime-budget estimate is worker processing wall time divided by audio time—not device-wide CPU usage. Browser RAM and OS CPU usage are not measured.</p>
+      <p>Thresholds affect this page only. Crossings are rising edges of the displayed score, not calibrated wake decisions. Audio stays unsaved unless you enable Record audio. Recording saves privately on this host for review, not training consent; nothing here runs commands or identifies a speaker.</p>
+      <h2>Record a test session</h2>
+      <label for="recording-intent">Session type</label><select id="recording-intent"><option value="negative-only">False-trigger hunt · intended negatives</option><option value="diagnostic">Mixed wake and look-alike test</option></select>
+      <p>Enable Record audio before Start. All selected heads are logged, even on other pages or hidden by the filter. Keep this tab open; press Stop to finish saving. Up to two hours, with bounded audio memory.</p>
+      <p>A negative-only session proposes clips for review, not automatic training negatives. Homophones and actual wake phrases still count as positives.</p>
+      <section id="recording-session" hidden aria-label="Recorded session">
+        <p id="recording-status" role="status"></p><p id="recording-problem" role="alert" hidden></p>
+        <button id="retry-recording" hidden>Retry saving</button>
+        <label for="recorded-crossings">Recent recorded crossings · latest 500</label><select id="recorded-crossings"></select>
+        <div class="review-actions"><button id="replay-crossing" disabled>Play crossing</button><button id="mark-crossing" disabled>False trigger</button></div>
+        <p id="mark-result" role="status"></p><p id="clip-position"></p><audio id="recording-player" controls hidden></audio>
+        <button id="download-recording" disabled>Download session index</button>
+        <p>The complete audio, per-frame scores, thresholds and crossings stay on this host for sample-exact cutting. Replay is available after Stop.</p>
+      </section>
+      <h2>Recent crossings</h2><ol id="recent"><li>No crossings yet.</li></ol>
+    </div></details>
+    <button id="start" class="primary" disabled>Start</button><button id="stop" class="primary" disabled hidden>Stop</button><button id="reset">Reset</button>
+  </div>
+</header>
+<dl class="metrics" aria-label="Model and processing statistics">
+  <div class="metric"><dt>Model files <span id="head-count"></span></dt><dd id="model-size">—</dd></div>
+  <div class="metric"><dt>Processing / frame</dt><dd id="mean-ms">—</dd></div>
+  <div class="metric"><dt>p95 / frame</dt><dd id="p95-ms">—</dd></div>
+  <div class="metric" title="Worker wall time / audio duration; not OS CPU utilization"><dt>RT budget · estimate</dt><dd id="rt-budget">—</dd></div>
+  <div class="metric"><dt>Audio backlog</dt><dd id="backlog">—</dd></div>
+  <div class="metric"><dt>Input level</dt><dd id="input-level">—</dd></div>
+</dl>
+<div class="toolbar">
+  <label class="search"><span class="sr-only">Find a wake word or release</span><input id="filter" type="search" placeholder="Find a wake word…" aria-describedby="filter-hint"></label>
+  <span id="filter-hint" class="sr-only">Filters the view only. All selected heads continue processing.</span>
+  <div><p id="error" role="alert" hidden></p><div class="legend"><span><i class="key peak"></i>Peak</span><span><i class="key"></i>Threshold</span><label class="record-switch"><input id="record-audio" type="checkbox">Record audio</label></div></div>
+</div>
+<section id="rows" class="board" aria-label="Wake word threshold bars">
+  <div class="empty"><h2>Loading wake words</h2><p>Reading the available releases. The microphone is off.</p></div>
+</section>
+<footer class="footer">
+  <div class="last-event"><span id="status" role="status" aria-live="polite">Loading inventory…</span><span id="last-crossing"></span></div>
+  <nav class="pager" aria-label="Wake word pages"><button id="prev" disabled>Previous</button><span id="page-label">—</span><button id="next" disabled>Next</button></nav>
+</footer>
+</main>
+</body>
+</html>

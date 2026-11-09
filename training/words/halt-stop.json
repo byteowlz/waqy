@@ -1,0 +1,36 @@
+{
+ "name": "halt-stop",
+ "trigger": "halt stop",
+ "display": "Halt stop!",
+ "kind": "command",
+ "train_bare": true,
+ "forms": {
+  "de": [
+   "Halt stop!"
+  ],
+  "en": [
+   "Halt stop!"
+  ]
+ },
+ "confusables": {
+  "de": [
+   "Halt",
+   "Halt mal",
+   "Hallo Stopp",
+   "Haltestelle"
+  ],
+  "en": [
+   "halt",
+   "hold up",
+   "all stop",
+   "salt shop"
+  ]
+ },
+ "pronunciation_note": "Two-word stop command (German 'Halt, stopp!'). A phrase is much harder to say by accident than bare 'stop'. 'Halt' alone is a near-miss: the head must hear both words.",
+ "accept_stems": [
+  "halt stop",
+  "halt stopp",
+  "stop",
+  "stopp"
+ ]
+}

@@ -1,0 +1,7993 @@
+{
+ "version": 2,
+ "tracker": "waqy trx-wv17, trx-sg05.4",
+ "purpose": "Owner recordings for wake heads. The deployed heads were trained only on designed synthetic voices, so the owner's own voice is out of distribution: hex does not trigger, elissa/pi/otacon are hit or miss. Positives teach the owner's voice; confusables are hard negatives. Saving is not training consent; review first.",
+ "words": [
+  {
+   "name": "oqto",
+   "display": "Oqto",
+   "languages": {
+    "de": {
+     "positives": [
+      {
+       "line": "Hey Okto",
+       "spoken": "Hey Okto",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Yo Okto",
+       "spoken": "Yo Okto",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "He Okto",
+       "spoken": "He Okto",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Okto",
+       "spoken": "Okto",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Okto?",
+       "spoken": "Okto?",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "Oktober",
+       "spoken": "Oktober",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Oktopus",
+       "spoken": "Oktopus",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Oktave",
+       "spoken": "Oktave",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "okay",
+       "spoken": "okay",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "oki",
+       "spoken": "oki",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "hey",
+       "spoken": "hey",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    },
+    "en": {
+     "positives": [
+      {
+       "line": "Hey Octo",
+       "spoken": "Hey Octo",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Yo Octo",
+       "spoken": "Yo Octo",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Octo",
+       "spoken": "Octo",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Octo?",
+       "spoken": "Octo?",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "October",
+       "spoken": "October",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "octopus",
+       "spoken": "octopus",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "octave",
+       "spoken": "octave",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "okay",
+       "spoken": "okay",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "oki",
+       "spoken": "oki",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "hey",
+       "spoken": "hey",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    }
+   },
+   "accept": [
+    "octo",
+    "ok-to",
+    "ok-toh",
+    "okto",
+    "oqto"
+   ]
+  },
+  {
+   "name": "hex",
+   "display": "Hex",
+   "languages": {
+    "de": {
+     "positives": [
+      {
+       "line": "Hey Hex",
+       "spoken": "Hey Hex",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Yo Hex",
+       "spoken": "Yo Hex",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "He Hex",
+       "spoken": "He Hex",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Hex",
+       "spoken": "Hex",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Hex?",
+       "spoken": "Hex?",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "Hexe",
+       "spoken": "Hexe",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Heck",
+       "spoken": "Heck",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "hacks",
+       "spoken": "hacks",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Text",
+       "spoken": "Text",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Sex",
+       "spoken": "Sex",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    },
+    "en": {
+     "positives": [
+      {
+       "line": "Hey Hex",
+       "spoken": "Hey Hex",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Yo Hex",
+       "spoken": "Yo Hex",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Hex",
+       "spoken": "Hex",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Hex?",
+       "spoken": "Hex?",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "hacks",
+       "spoken": "hacks",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "hexes",
+       "spoken": "hexes",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "texts",
+       "spoken": "texts",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "sex",
+       "spoken": "sex",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "checks",
+       "spoken": "checks",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    }
+   },
+   "accept": [
+    "hecks"
+   ]
+  },
+  {
+   "name": "elissa",
+   "display": "Elissa",
+   "languages": {
+    "de": {
+     "positives": [
+      {
+       "line": "Hey Elissa",
+       "spoken": "Hey Elissa",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Yo Elissa",
+       "spoken": "Yo Elissa",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "He Elissa",
+       "spoken": "He Elissa",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Elissa",
+       "spoken": "Elissa",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Elissa?",
+       "spoken": "Elissa?",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "Melissa",
+       "spoken": "Melissa",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Alyssa",
+       "spoken": "Alyssa",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Elisa",
+       "spoken": "Elisa",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Lisa",
+       "spoken": "Lisa",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    },
+    "en": {
+     "positives": [
+      {
+       "line": "Hey Elissa",
+       "spoken": "Hey Elissa",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Yo Elissa",
+       "spoken": "Yo Elissa",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Elissa",
+       "spoken": "Elissa",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Elissa?",
+       "spoken": "Elissa?",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "Melissa",
+       "spoken": "Melissa",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Alyssa",
+       "spoken": "Alyssa",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Elisa",
+       "spoken": "Elisa",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Lisa",
+       "spoken": "Lisa",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Melisa",
+       "spoken": "Melisa",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    }
+   },
+   "accept": []
+  },
+  {
+   "name": "colonel",
+   "display": "Colonel",
+   "languages": {
+    "de": {
+     "positives": [
+      {
+       "line": "Hey Colonel",
+       "spoken": "Hey Colonel",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "He Colonel",
+       "spoken": "He Colonel",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Colonel",
+       "spoken": "Colonel",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Colonel?",
+       "spoken": "Colonel?",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "Kernel",
+       "spoken": "Kernel",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Kolonie",
+       "spoken": "Kolonie",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Kanal",
+       "spoken": "Kanal",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    },
+    "en": {
+     "positives": [
+      {
+       "line": "Hey Colonel",
+       "spoken": "Hey Colonel",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Colonel",
+       "spoken": "Colonel",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Colonel?",
+       "spoken": "Colonel?",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "colonial",
+       "spoken": "colonial",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "colon",
+       "spoken": "colon",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "column",
+       "spoken": "column",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    }
+   },
+   "accept": []
+  },
+  {
+   "name": "opencode",
+   "display": "OpenCode",
+   "languages": {
+    "de": {
+     "positives": [
+      {
+       "line": "Hey OpenCode",
+       "spoken": "Hey OpenCode",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Yo OpenCode",
+       "spoken": "Yo OpenCode",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "He OpenCode",
+       "spoken": "He OpenCode",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "OpenCode",
+       "spoken": "OpenCode",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "OpenCode?",
+       "spoken": "OpenCode?",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "Open Cote",
+       "spoken": "Open Cote",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Open Coat",
+       "spoken": "Open Coat",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Open Call",
+       "spoken": "Open Call",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Broken Code",
+       "spoken": "Broken Code",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    },
+    "en": {
+     "positives": [
+      {
+       "line": "Hey OpenCode",
+       "spoken": "Hey OpenCode",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Yo OpenCode",
+       "spoken": "Yo OpenCode",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "OpenCode",
+       "spoken": "OpenCode",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "OpenCode?",
+       "spoken": "OpenCode?",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "open coat",
+       "spoken": "open coat",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "open coat",
+       "spoken": "open coat",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "open cote",
+       "spoken": "open cote",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "broken code",
+       "spoken": "broken code",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    }
+   },
+   "accept": [
+    "open code"
+   ]
+  },
+  {
+   "name": "otacon",
+   "display": "Otacon",
+   "languages": {
+    "de": {
+     "positives": [
+      {
+       "line": "Hey Otacon",
+       "spoken": "Hey Otacon",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "He Otacon",
+       "spoken": "He Otacon",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Otacon",
+       "spoken": "Otacon",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Otacon?",
+       "spoken": "Otacon?",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "Ottokahn",
+       "spoken": "Ottokahn",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Otto kann",
+       "spoken": "Otto kann",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Ota Kon",
+       "spoken": "Ota Kon",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Autohahn",
+       "spoken": "Autohahn",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    },
+    "en": {
+     "positives": [
+      {
+       "line": "Hey Otacon",
+       "spoken": "Hey Otacon",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Otacon",
+       "spoken": "Otacon",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Otacon?",
+       "spoken": "Otacon?",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "ottokahn",
+       "spoken": "ottokahn",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "auto con",
+       "spoken": "auto con",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "ota con",
+       "spoken": "ota con",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "outta con",
+       "spoken": "outta con",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    }
+   },
+   "accept": [
+    "otakon",
+    "ottacon"
+   ]
+  },
+  {
+   "name": "pi",
+   "display": "Pi",
+   "languages": {
+    "de": {
+     "positives": [
+      {
+       "line": "Hey Pi",
+       "spoken": "Hey Pi",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Yo Pi",
+       "spoken": "Yo Pi",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "He Pi",
+       "spoken": "He Pi",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Pi",
+       "spoken": "Pi",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Pi?",
+       "spoken": "Pi?",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "Piep",
+       "spoken": "Piep",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Pille",
+       "spoken": "Pille",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Biene",
+       "spoken": "Biene",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Pia",
+       "spoken": "Pia",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Typ",
+       "spoken": "Typ",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    },
+    "en": {
+     "positives": [
+      {
+       "line": "Hey Pi",
+       "spoken": "Hey Pi",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Yo Pi",
+       "spoken": "Yo Pi",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Pi",
+       "spoken": "Pi",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Pi?",
+       "spoken": "Pi?",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "pea",
+       "spoken": "pea",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "pee",
+       "spoken": "pee",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "pry",
+       "spoken": "pry",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "pipe",
+       "spoken": "pipe",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "pilot",
+       "spoken": "pilot",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "spy",
+       "spoken": "spy",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    }
+   },
+   "accept": [
+    "pie"
+   ]
+  },
+  {
+   "name": "action",
+   "display": "Action",
+   "languages": {
+    "de": {
+     "positives": [
+      {
+       "line": "Action",
+       "spoken": "Action",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "Aktion",
+       "spoken": "Aktion",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Aktien",
+       "spoken": "Aktien",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    },
+    "en": {
+     "positives": [
+      {
+       "line": "Action",
+       "spoken": "Action",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "auction",
+       "spoken": "auction",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "acting",
+       "spoken": "acting",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "ash in",
+       "spoken": "ash in",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    }
+   },
+   "accept": [
+    "action"
+   ]
+  },
+  {
+   "name": "amp",
+   "display": "Amp",
+   "languages": {
+    "de": {
+     "positives": [
+      {
+       "line": "Hey Amp",
+       "spoken": "Hey Amp",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "He Amp",
+       "spoken": "He Amp",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Amp",
+       "spoken": "Amp",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Amp?",
+       "spoken": "Amp?",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "Amt",
+       "spoken": "Amt",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Am",
+       "spoken": "Am",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Ampel",
+       "spoken": "Ampel",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Amper",
+       "spoken": "Amper",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Anp",
+       "spoken": "Anp",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    },
+    "en": {
+     "positives": [
+      {
+       "line": "Hey Amp",
+       "spoken": "Hey Amp",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Amp",
+       "spoken": "Amp",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Amp?",
+       "spoken": "Amp?",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "am",
+       "spoken": "am",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "and",
+       "spoken": "and",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "ham",
+       "spoken": "ham",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "imp",
+       "spoken": "imp",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "amped",
+       "spoken": "amped",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "amps",
+       "spoken": "amps",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    }
+   },
+   "accept": [
+    "amp",
+    "hey",
+    "okay"
+   ]
+  },
+  {
+   "name": "bot",
+   "display": "Bot",
+   "languages": {
+    "de": {
+     "positives": [
+      {
+       "line": "Hey Bot",
+       "spoken": "Hey Bot",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "He Bot",
+       "spoken": "He Bot",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "Bord",
+       "spoken": "Bord",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Brot",
+       "spoken": "Brot",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Bottich",
+       "spoken": "Bottich",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    },
+    "en": {
+     "positives": [
+      {
+       "line": "Hey Bot",
+       "spoken": "Hey Bot",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "but",
+       "spoken": "but",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "bought",
+       "spoken": "bought",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "boat",
+       "spoken": "boat",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "bob",
+       "spoken": "bob",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "pot",
+       "spoken": "pot",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    }
+   },
+   "accept": [
+    "bot",
+    "bott",
+    "hey",
+    "okay"
+   ]
+  },
+  {
+   "name": "btw",
+   "display": "By the way",
+   "languages": {
+    "de": {
+     "positives": [
+      {
+       "line": "by the way",
+       "spoken": "by the way",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "btw",
+       "spoken": "btw",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "by the weight",
+       "spoken": "by the weight",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "beim Weg",
+       "spoken": "beim Weg",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    },
+    "en": {
+     "positives": [
+      {
+       "line": "by the way",
+       "spoken": "by the way",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "btw",
+       "spoken": "btw",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "By the way?",
+       "spoken": "By the way?",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "by the weight",
+       "spoken": "by the weight",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "byway",
+       "spoken": "byway",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    }
+   },
+   "accept": [
+    "btw",
+    "buy the way",
+    "by",
+    "way"
+   ]
+  },
+  {
+   "name": "byteboard",
+   "display": "Byteboard",
+   "languages": {
+    "de": {
+     "positives": [
+      {
+       "line": "Hey Byteboard",
+       "spoken": "Hey Byteboard",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "He Byteboard",
+       "spoken": "He Byteboard",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Byteboard",
+       "spoken": "Byteboard",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Byteboard?",
+       "spoken": "Byteboard?",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "Brett",
+       "spoken": "Brett",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Beetboard",
+       "spoken": "Beetboard",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    },
+    "en": {
+     "positives": [
+      {
+       "line": "Hey Byteboard",
+       "spoken": "Hey Byteboard",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Byteboard",
+       "spoken": "Byteboard",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Byteboard?",
+       "spoken": "Byteboard?",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "whiteboard",
+       "spoken": "whiteboard",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "keyboard",
+       "spoken": "keyboard",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    }
+   },
+   "accept": [
+    "bite board",
+    "byte board"
+   ]
+  },
+  {
+   "name": "chatgpt",
+   "display": "ChatGPT",
+   "languages": {
+    "de": {
+     "positives": [
+      {
+       "line": "Hey ChatGPT",
+       "spoken": "Hey ChatGPT",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "He ChatGPT",
+       "spoken": "He ChatGPT",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "ChatGPT",
+       "spoken": "ChatGPT",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "ChatGPT?",
+       "spoken": "ChatGPT?",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "Chat",
+       "spoken": "Chat",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "GPT",
+       "spoken": "GPT",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Chat GTP",
+       "spoken": "Chat GTP",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Schach GPT",
+       "spoken": "Schach GPT",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    },
+    "en": {
+     "positives": [
+      {
+       "line": "Hey ChatGPT",
+       "spoken": "Hey ChatGPT",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "ChatGPT",
+       "spoken": "ChatGPT",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "ChatGPT?",
+       "spoken": "ChatGPT?",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "chat",
+       "spoken": "chat",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "gpt",
+       "spoken": "gpt",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "chat gtp",
+       "spoken": "chat gtp",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "chad gpt",
+       "spoken": "chad gpt",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    }
+   },
+   "accept": [
+    "chat g p t",
+    "chat gpt",
+    "chatgpt"
+   ]
+  },
+  {
+   "name": "claude",
+   "display": "Claude",
+   "languages": {
+    "de": {
+     "positives": [
+      {
+       "line": "Hey Claude",
+       "spoken": "Hey Claude",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "He Claude",
+       "spoken": "He Claude",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "Klaue",
+       "spoken": "Klaue",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Klo",
+       "spoken": "Klo",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Klotz",
+       "spoken": "Klotz",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Cloud",
+       "spoken": "Cloud",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Glauber",
+       "spoken": "Glauber",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    },
+    "en": {
+     "positives": [
+      {
+       "line": "Hey Claude",
+       "spoken": "Hey Claude",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "cloud",
+       "spoken": "cloud",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "clod",
+       "spoken": "clod",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "clause",
+       "spoken": "clause",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "claw",
+       "spoken": "claw",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    }
+   },
+   "accept": [
+    "claude",
+    "hey",
+    "klod",
+    "okay"
+   ]
+  },
+  {
+   "name": "codec",
+   "display": "Codec",
+   "languages": {
+    "de": {
+     "positives": [
+      {
+       "line": "Hey Codec",
+       "spoken": "Hey Codec",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "He Codec",
+       "spoken": "He Codec",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Codec",
+       "spoken": "Codec",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Codec?",
+       "spoken": "Codec?",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "Kodek",
+       "spoken": "Kodek",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Kodex",
+       "spoken": "Kodex",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    },
+    "en": {
+     "positives": [
+      {
+       "line": "Hey Codec",
+       "spoken": "Hey Codec",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Codec",
+       "spoken": "Codec",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Codec?",
+       "spoken": "Codec?",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "code ek",
+       "spoken": "code ek",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "co dec",
+       "spoken": "co dec",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "code x",
+       "spoken": "code x",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    }
+   },
+   "accept": []
+  },
+  {
+   "name": "codex",
+   "display": "Codex",
+   "languages": {
+    "de": {
+     "positives": [
+      {
+       "line": "Hey Codex",
+       "spoken": "Hey Codex",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "He Codex",
+       "spoken": "He Codex",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Codex",
+       "spoken": "Codex",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Codex?",
+       "spoken": "Codex?",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "Kode",
+       "spoken": "Kode",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Köder",
+       "spoken": "Köder",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Kodeks",
+       "spoken": "Kodeks",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Kodak",
+       "spoken": "Kodak",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    },
+    "en": {
+     "positives": [
+      {
+       "line": "Hey Codex",
+       "spoken": "Hey Codex",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Codex",
+       "spoken": "Codex",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Codex?",
+       "spoken": "Codex?",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "code",
+       "spoken": "code",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "codes",
+       "spoken": "codes",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "kodak",
+       "spoken": "kodak",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "cortex",
+       "spoken": "cortex",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    }
+   },
+   "accept": [
+    "codex",
+    "hey",
+    "kodex",
+    "okay"
+   ]
+  },
+  {
+   "name": "computer",
+   "display": "Computer",
+   "languages": {
+    "de": {
+     "positives": [
+      {
+       "line": "Hey Computer",
+       "spoken": "Hey Computer",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Yo Computer",
+       "spoken": "Yo Computer",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "He Computer",
+       "spoken": "He Computer",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Okay Computer",
+       "spoken": "Okay Computer",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Ok Computer",
+       "spoken": "Ok Computer",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Computer",
+       "spoken": "Computer",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Computer?",
+       "spoken": "Computer?",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "Komputer",
+       "spoken": "Komputer",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Computa",
+       "spoken": "Computa",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Kombi",
+       "spoken": "Kombi",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Kompressor",
+       "spoken": "Kompressor",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    },
+    "en": {
+     "positives": [
+      {
+       "line": "Hey Computer",
+       "spoken": "Hey Computer",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Yo Computer",
+       "spoken": "Yo Computer",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Okay Computer",
+       "spoken": "Okay Computer",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Ok Computer",
+       "spoken": "Ok Computer",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Computer",
+       "spoken": "Computer",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Computer?",
+       "spoken": "Computer?",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "commuter",
+       "spoken": "commuter",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "compute her",
+       "spoken": "compute her",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "compuda",
+       "spoken": "compuda",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "computers",
+       "spoken": "computers",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    }
+   },
+   "accept": [
+    "computer",
+    "computer?",
+    "hey",
+    "okay"
+   ]
+  },
+  {
+   "name": "copilot",
+   "display": "Copilot",
+   "languages": {
+    "de": {
+     "positives": [
+      {
+       "line": "Hey Copilot",
+       "spoken": "Hey Copilot",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "He Copilot",
+       "spoken": "He Copilot",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Copilot",
+       "spoken": "Copilot",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Copilot?",
+       "spoken": "Copilot?",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "Pilot",
+       "spoken": "Pilot",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Koala",
+       "spoken": "Koala",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Kapitel",
+       "spoken": "Kapitel",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Kobalt",
+       "spoken": "Kobalt",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    },
+    "en": {
+     "positives": [
+      {
+       "line": "Hey Copilot",
+       "spoken": "Hey Copilot",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Copilot",
+       "spoken": "Copilot",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Copilot?",
+       "spoken": "Copilot?",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "pilot",
+       "spoken": "pilot",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "copy lot",
+       "spoken": "copy lot",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "kobold",
+       "spoken": "kobold",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "copy pilot",
+       "spoken": "copy pilot",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "co-pilate",
+       "spoken": "co-pilate",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    }
+   },
+   "accept": [
+    "co pilot",
+    "copilot",
+    "hey",
+    "ko pilot",
+    "okay"
+   ]
+  },
+  {
+   "name": "deepseek",
+   "display": "DeepSeek",
+   "languages": {
+    "de": {
+     "positives": [
+      {
+       "line": "Hey DeepSeek",
+       "spoken": "Hey DeepSeek",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "He DeepSeek",
+       "spoken": "He DeepSeek",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "DeepSeek",
+       "spoken": "DeepSeek",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "DeepSeek?",
+       "spoken": "DeepSeek?",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "Deep",
+       "spoken": "Deep",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Seek",
+       "spoken": "Seek",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Tiefsee",
+       "spoken": "Tiefsee",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Dieb Sieg",
+       "spoken": "Dieb Sieg",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    },
+    "en": {
+     "positives": [
+      {
+       "line": "Hey DeepSeek",
+       "spoken": "Hey DeepSeek",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "DeepSeek",
+       "spoken": "DeepSeek",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "DeepSeek?",
+       "spoken": "DeepSeek?",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "deep",
+       "spoken": "deep",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "seek",
+       "spoken": "seek",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "deep six",
+       "spoken": "deep six",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "dip seek",
+       "spoken": "dip seek",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    }
+   },
+   "accept": [
+    "deep seek",
+    "deepseek",
+    "hey",
+    "okay"
+   ]
+  },
+  {
+   "name": "dot",
+   "display": "Dot",
+   "languages": {
+    "de": {
+     "positives": [
+      {
+       "line": "Hey Dot",
+       "spoken": "Hey Dot",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "He Dot",
+       "spoken": "He Dot",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "Doge",
+       "spoken": "Doge",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Doz",
+       "spoken": "Doz",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Dog",
+       "spoken": "Dog",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Tod",
+       "spoken": "Tod",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    },
+    "en": {
+     "positives": [
+      {
+       "line": "Hey Dot",
+       "spoken": "Hey Dot",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "dots",
+       "spoken": "dots",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "dog",
+       "spoken": "dog",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "pot",
+       "spoken": "pot",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "tot",
+       "spoken": "tot",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "dots of",
+       "spoken": "dots of",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    }
+   },
+   "accept": [
+    "dot",
+    "hey",
+    "okay"
+   ]
+  },
+  {
+   "name": "emergency-stop",
+   "display": "Emergency stop",
+   "languages": {
+    "de": {
+     "positives": [
+      {
+       "line": "Emergency stop",
+       "spoken": "Emergency stop",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Emergency stop!",
+       "spoken": "Emergency stop!",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "emergency",
+       "spoken": "emergency",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "emergency exit",
+       "spoken": "emergency exit",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "I'm a genie stop",
+       "spoken": "I'm a genie stop",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "energy stop",
+       "spoken": "energy stop",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    },
+    "en": {
+     "positives": [
+      {
+       "line": "Emergency stop",
+       "spoken": "Emergency stop",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Emergency stop!",
+       "spoken": "Emergency stop!",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "emergency",
+       "spoken": "emergency",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "emergency exit",
+       "spoken": "emergency exit",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "I'm a genie stop",
+       "spoken": "I'm a genie stop",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "energy stop",
+       "spoken": "energy stop",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    }
+   },
+   "accept": [
+    "emergency stop",
+    "emergency stopp"
+   ]
+  },
+  {
+   "name": "execute",
+   "display": "Execute",
+   "languages": {
+    "de": {
+     "positives": [
+      {
+       "line": "Execute",
+       "spoken": "Execute",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Bitte ausführen",
+       "spoken": "Bitte ausführen",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "executable",
+       "spoken": "executable",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "exec",
+       "spoken": "exec",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "X cute",
+       "spoken": "X cute",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "es kjut",
+       "spoken": "es kjut",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    },
+    "en": {
+     "positives": [
+      {
+       "line": "Execute",
+       "spoken": "Execute",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Please execute",
+       "spoken": "Please execute",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "X cute",
+       "spoken": "X cute",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "executor",
+       "spoken": "executor",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "eggs a cute",
+       "spoken": "eggs a cute",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    }
+   },
+   "accept": [
+    "ausführen",
+    "bitte",
+    "execute",
+    "please"
+   ]
+  },
+  {
+   "name": "foxdie",
+   "display": "Foxdie",
+   "languages": {
+    "de": {
+     "positives": [
+      {
+       "line": "Hey Foxdie",
+       "spoken": "Hey Foxdie",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "He Foxdie",
+       "spoken": "He Foxdie",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Foxdie",
+       "spoken": "Foxdie",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Foxdie?",
+       "spoken": "Foxdie?",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "Fuchs die",
+       "spoken": "Fuchs die",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    },
+    "en": {
+     "positives": [
+      {
+       "line": "Hey Foxdie",
+       "spoken": "Hey Foxdie",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Foxdie",
+       "spoken": "Foxdie",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Foxdie?",
+       "spoken": "Foxdie?",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "box die",
+       "spoken": "box die",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "fox died",
+       "spoken": "fox died",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    }
+   },
+   "accept": [
+    "fox die",
+    "fox dye"
+   ]
+  },
+  {
+   "name": "foxline",
+   "display": "Foxline",
+   "languages": {
+    "de": {
+     "positives": [
+      {
+       "line": "Hey Foxline",
+       "spoken": "Hey Foxline",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "He Foxline",
+       "spoken": "He Foxline",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Foxline",
+       "spoken": "Foxline",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Foxline?",
+       "spoken": "Foxline?",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "Fuchslinie",
+       "spoken": "Fuchslinie",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Volksline",
+       "spoken": "Volksline",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    },
+    "en": {
+     "positives": [
+      {
+       "line": "Hey Foxline",
+       "spoken": "Hey Foxline",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Foxline",
+       "spoken": "Foxline",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Foxline?",
+       "spoken": "Foxline?",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "box line",
+       "spoken": "box line",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "fox lion",
+       "spoken": "fox lion",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "fox land",
+       "spoken": "fox land",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    }
+   },
+   "accept": [
+    "fox line"
+   ]
+  },
+  {
+   "name": "gekko",
+   "display": "Gekko",
+   "languages": {
+    "de": {
+     "positives": [
+      {
+       "line": "Hey Gekko",
+       "spoken": "Hey Gekko",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "He Gekko",
+       "spoken": "He Gekko",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Gekko",
+       "spoken": "Gekko",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Gekko?",
+       "spoken": "Gekko?",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": []
+    },
+    "en": {
+     "positives": [
+      {
+       "line": "Hey Gekko",
+       "spoken": "Hey Gekko",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Gekko",
+       "spoken": "Gekko",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Gekko?",
+       "spoken": "Gekko?",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "geko",
+       "spoken": "geko",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    }
+   },
+   "accept": [
+    "gecko"
+   ]
+  },
+  {
+   "name": "gemini",
+   "display": "Gemini",
+   "languages": {
+    "de": {
+     "positives": [
+      {
+       "line": "Hey Gemini",
+       "spoken": "Hey Gemini",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "He Gemini",
+       "spoken": "He Gemini",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Gemini",
+       "spoken": "Gemini",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Gemini?",
+       "spoken": "Gemini?",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "Gemüse",
+       "spoken": "Gemüse",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Geminin",
+       "spoken": "Geminin",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Seminar",
+       "spoken": "Seminar",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Gremium",
+       "spoken": "Gremium",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    },
+    "en": {
+     "positives": [
+      {
+       "line": "Hey Gemini",
+       "spoken": "Hey Gemini",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Gemini",
+       "spoken": "Gemini",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Gemini?",
+       "spoken": "Gemini?",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "gemma",
+       "spoken": "gemma",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "geminids",
+       "spoken": "geminids",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "jiminy",
+       "spoken": "jiminy",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "jenny",
+       "spoken": "jenny",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    }
+   },
+   "accept": [
+    "gemini",
+    "hey",
+    "okay"
+   ]
+  },
+  {
+   "name": "ginee",
+   "display": "Ginee",
+   "languages": {
+    "de": {
+     "positives": [
+      {
+       "line": "Hey Djini",
+       "spoken": "Hey Djini",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Djini",
+       "spoken": "Djini",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Hey Dschini",
+       "spoken": "Hey Dschini",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Dschini",
+       "spoken": "Dschini",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Hey Genie",
+       "spoken": "Hey Genie",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Genie",
+       "spoken": "Genie",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Ginee",
+       "spoken": "Ginee",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "Dschinn",
+       "spoken": "Dschinn",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Ginie",
+       "spoken": "Ginie",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Giene",
+       "spoken": "Giene",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Jenni",
+       "spoken": "Jenni",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Jinni",
+       "spoken": "Jinni",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Knie",
+       "spoken": "Knie",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    },
+    "en": {
+     "positives": [
+      {
+       "line": "Hey Genie",
+       "spoken": "Hey Genie",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Genie",
+       "spoken": "Genie",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Hey Jeanie",
+       "spoken": "Hey Jeanie",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Jeanie",
+       "spoken": "Jeanie",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Ginee",
+       "spoken": "Ginee",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "jinny",
+       "spoken": "jinny",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "guinea",
+       "spoken": "guinea",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "gene",
+       "spoken": "gene",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "jean",
+       "spoken": "jean",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "ginny",
+       "spoken": "ginny",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "penny",
+       "spoken": "penny",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "jenny",
+       "spoken": "jenny",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    }
+   },
+   "accept": [
+    "chini",
+    "djini",
+    "djinni",
+    "dschini",
+    "geni",
+    "genie",
+    "ginee",
+    "gini",
+    "jeanie",
+    "jeannie",
+    "schini"
+   ]
+  },
+  {
+   "name": "go-run",
+   "display": "Go run",
+   "languages": {
+    "de": {
+     "positives": [
+      {
+       "line": "Go run",
+       "spoken": "Go run",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Los laufen",
+       "spoken": "Los laufen",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "go around",
+       "spoken": "go around",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "grow run",
+       "spoken": "grow run",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Ko run",
+       "spoken": "Ko run",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    },
+    "en": {
+     "positives": [
+      {
+       "line": "Go run",
+       "spoken": "Go run",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "go around",
+       "spoken": "go around",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "grow run",
+       "spoken": "grow run",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "gun",
+       "spoken": "gun",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    }
+   },
+   "accept": [
+    "laufen",
+    "los",
+    "run"
+   ]
+  },
+  {
+   "name": "governor",
+   "display": "Governor",
+   "languages": {
+    "de": {
+     "positives": [
+      {
+       "line": "Hey Governor",
+       "spoken": "Hey Governor",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "He Governor",
+       "spoken": "He Governor",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Governor",
+       "spoken": "Governor",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Governor?",
+       "spoken": "Governor?",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "Governess",
+       "spoken": "Governess",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Government",
+       "spoken": "Government",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Gouverneur",
+       "spoken": "Gouverneur",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    },
+    "en": {
+     "positives": [
+      {
+       "line": "Hey Governor",
+       "spoken": "Hey Governor",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Governor",
+       "spoken": "Governor",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Governor?",
+       "spoken": "Governor?",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "government",
+       "spoken": "government",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "governess",
+       "spoken": "governess",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "gubernatorial",
+       "spoken": "gubernatorial",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "govern",
+       "spoken": "govern",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    }
+   },
+   "accept": []
+  },
+  {
+   "name": "greyrot",
+   "display": "Greyrot",
+   "languages": {
+    "de": {
+     "positives": [
+      {
+       "line": "Hey Greyrot",
+       "spoken": "Hey Greyrot",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "He Greyrot",
+       "spoken": "He Greyrot",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Greyrot",
+       "spoken": "Greyrot",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Greyrot?",
+       "spoken": "Greyrot?",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "Graurot",
+       "spoken": "Graurot",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "grau rot",
+       "spoken": "grau rot",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Grau Rod",
+       "spoken": "Grau Rod",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    },
+    "en": {
+     "positives": [
+      {
+       "line": "Hey Greyrot",
+       "spoken": "Hey Greyrot",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Greyrot",
+       "spoken": "Greyrot",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Greyrot?",
+       "spoken": "Greyrot?",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "grey rod",
+       "spoken": "grey rod",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "grey rat",
+       "spoken": "grey rat",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "great rot",
+       "spoken": "great rot",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    }
+   },
+   "accept": [
+    "gray rot",
+    "grey rot"
+   ]
+  },
+  {
+   "name": "grok",
+   "display": "Grok",
+   "languages": {
+    "de": {
+     "positives": [
+      {
+       "line": "Hey Grok",
+       "spoken": "Hey Grok",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "He Grok",
+       "spoken": "He Grok",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Grok",
+       "spoken": "Grok",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Grok?",
+       "spoken": "Grok?",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "Grog",
+       "spoken": "Grog",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Rock",
+       "spoken": "Rock",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Krok",
+       "spoken": "Krok",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Block",
+       "spoken": "Block",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    },
+    "en": {
+     "positives": [
+      {
+       "line": "Hey Grok",
+       "spoken": "Hey Grok",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Grok",
+       "spoken": "Grok",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Grok?",
+       "spoken": "Grok?",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "rock",
+       "spoken": "rock",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "crock",
+       "spoken": "crock",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "grog",
+       "spoken": "grog",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "brock",
+       "spoken": "brock",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    }
+   },
+   "accept": [
+    "grok",
+    "hey",
+    "okay"
+   ]
+  },
+  {
+   "name": "hal",
+   "display": "HAL",
+   "languages": {
+    "de": {
+     "positives": [
+      {
+       "line": "Hey Hal",
+       "spoken": "Hey Hal",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "He Hal",
+       "spoken": "He Hal",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Okay Hal",
+       "spoken": "Okay Hal",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Ok Hal",
+       "spoken": "Ok Hal",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Hal",
+       "spoken": "Hal",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Hal?",
+       "spoken": "Hal?",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "Halle",
+       "spoken": "Halle",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Hall",
+       "spoken": "Hall",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Hals",
+       "spoken": "Hals",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "hell",
+       "spoken": "hell",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "halt",
+       "spoken": "halt",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    },
+    "en": {
+     "positives": [
+      {
+       "line": "Hey Hal",
+       "spoken": "Hey Hal",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Okay Hal",
+       "spoken": "Okay Hal",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Ok Hal",
+       "spoken": "Ok Hal",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Hal",
+       "spoken": "Hal",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Hal?",
+       "spoken": "Hal?",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "hall",
+       "spoken": "hall",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "hull",
+       "spoken": "hull",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "howl",
+       "spoken": "howl",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "hell",
+       "spoken": "hell",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    }
+   },
+   "accept": [
+    "hal",
+    "hal?",
+    "hey",
+    "okay"
+   ]
+  },
+  {
+   "name": "halt-halt",
+   "display": "Halt, halt!",
+   "languages": {
+    "de": {
+     "positives": [
+      {
+       "line": "Halt, halt!",
+       "spoken": "Halt, halt!",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Halt halt",
+       "spoken": "Halt halt",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "Halt",
+       "spoken": "Halt",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "halt mal",
+       "spoken": "halt mal",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Hals",
+       "spoken": "Hals",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Hall",
+       "spoken": "Hall",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    },
+    "en": {
+     "positives": [
+      {
+       "line": "Halt, halt!",
+       "spoken": "Halt, halt!",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Halt halt",
+       "spoken": "Halt halt",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "halt",
+       "spoken": "halt",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "help",
+       "spoken": "help",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "hulk",
+       "spoken": "hulk",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "hall",
+       "spoken": "hall",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    }
+   },
+   "accept": [
+    "halt halt",
+    "halt, halt"
+   ]
+  },
+  {
+   "name": "halt-stop",
+   "display": "Halt stop!",
+   "languages": {
+    "de": {
+     "positives": [
+      {
+       "line": "Halt stop!",
+       "spoken": "Halt stop!",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "Halt",
+       "spoken": "Halt",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Halt mal",
+       "spoken": "Halt mal",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Hallo Stopp",
+       "spoken": "Hallo Stopp",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Haltestelle",
+       "spoken": "Haltestelle",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    },
+    "en": {
+     "positives": [
+      {
+       "line": "Halt stop!",
+       "spoken": "Halt stop!",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "halt",
+       "spoken": "halt",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "hold up",
+       "spoken": "hold up",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "all stop",
+       "spoken": "all stop",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "salt shop",
+       "spoken": "salt shop",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    }
+   },
+   "accept": [
+    "halt stop",
+    "halt stopp",
+    "stop",
+    "stopp"
+   ]
+  },
+  {
+   "name": "homeassistant",
+   "display": "Home Assistant",
+   "languages": {
+    "de": {
+     "positives": [
+      {
+       "line": "Hey Home Assistant",
+       "spoken": "Hey Home Assistant",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Yo Home Assistant",
+       "spoken": "Yo Home Assistant",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "He Home Assistant",
+       "spoken": "He Home Assistant",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "Home",
+       "spoken": "Home",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Assistant",
+       "spoken": "Assistant",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "HomePod",
+       "spoken": "HomePod",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Heimassistent",
+       "spoken": "Heimassistent",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Homer Simpson",
+       "spoken": "Homer Simpson",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Home assistance",
+       "spoken": "Home assistance",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    },
+    "en": {
+     "positives": [
+      {
+       "line": "Hey Home Assistant",
+       "spoken": "Hey Home Assistant",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Yo Home Assistant",
+       "spoken": "Yo Home Assistant",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "home",
+       "spoken": "home",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "assistant",
+       "spoken": "assistant",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "HomePod",
+       "spoken": "HomePod",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "home assistance",
+       "spoken": "home assistance",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "home assignment",
+       "spoken": "home assignment",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Homer Simpson",
+       "spoken": "Homer Simpson",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    }
+   },
+   "accept": [
+    "home assistant",
+    "home-assistant",
+    "homeassistant"
+   ]
+  },
+  {
+   "name": "inside-ai",
+   "display": "Inside AI",
+   "languages": {
+    "de": {
+     "positives": [
+      {
+       "line": "Inside AI",
+       "spoken": "Inside AI",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Inside AI?",
+       "spoken": "Inside AI?",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "Inside",
+       "spoken": "Inside",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "In Seiten",
+       "spoken": "In Seiten",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Insider",
+       "spoken": "Insider",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Inside Eye",
+       "spoken": "Inside Eye",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    },
+    "en": {
+     "positives": [
+      {
+       "line": "Inside AI",
+       "spoken": "Inside AI",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Inside AI?",
+       "spoken": "Inside AI?",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "inside",
+       "spoken": "inside",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "insider",
+       "spoken": "insider",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "inside eye",
+       "spoken": "inside eye",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "in sight",
+       "spoken": "in sight",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    }
+   },
+   "accept": [
+    "inside a i",
+    "inside ai"
+   ]
+  },
+  {
+   "name": "jarvis",
+   "display": "Jarvis",
+   "languages": {
+    "de": {
+     "positives": [
+      {
+       "line": "Hey Jarvis",
+       "spoken": "Hey Jarvis",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Yo Jarvis",
+       "spoken": "Yo Jarvis",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "He Jarvis",
+       "spoken": "He Jarvis",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Okay Jarvis",
+       "spoken": "Okay Jarvis",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Ok Jarvis",
+       "spoken": "Ok Jarvis",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Jarvis",
+       "spoken": "Jarvis",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Jarvis?",
+       "spoken": "Jarvis?",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "Jervis",
+       "spoken": "Jervis",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Javis",
+       "spoken": "Javis",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Darwin",
+       "spoken": "Darwin",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    },
+    "en": {
+     "positives": [
+      {
+       "line": "Hey Jarvis",
+       "spoken": "Hey Jarvis",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Yo Jarvis",
+       "spoken": "Yo Jarvis",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Okay Jarvis",
+       "spoken": "Okay Jarvis",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Ok Jarvis",
+       "spoken": "Ok Jarvis",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Jarvis",
+       "spoken": "Jarvis",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Jarvis?",
+       "spoken": "Jarvis?",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "Jervis",
+       "spoken": "Jervis",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Jarvas",
+       "spoken": "Jarvas",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    }
+   },
+   "accept": [
+    "hey",
+    "jar vis",
+    "jarvis",
+    "jarvis?",
+    "jarwis",
+    "okay"
+   ]
+  },
+  {
+   "name": "jev",
+   "display": "Jev",
+   "languages": {
+    "de": {
+     "positives": [
+      {
+       "line": "Hey Jev",
+       "spoken": "Hey Jev",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "He Jev",
+       "spoken": "He Jev",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Okay Jev",
+       "spoken": "Okay Jev",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Ok Jev",
+       "spoken": "Ok Jev",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Jev",
+       "spoken": "Jev",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Jev?",
+       "spoken": "Jev?",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "Jepp",
+       "spoken": "Jepp",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Jeb",
+       "spoken": "Jeb",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Chef",
+       "spoken": "Chef",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Je",
+       "spoken": "Je",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Jens",
+       "spoken": "Jens",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    },
+    "en": {
+     "positives": [
+      {
+       "line": "Hey Jev",
+       "spoken": "Hey Jev",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Okay Jev",
+       "spoken": "Okay Jev",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Ok Jev",
+       "spoken": "Ok Jev",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Jev",
+       "spoken": "Jev",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Jev?",
+       "spoken": "Jev?",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "Jeff",
+       "spoken": "Jeff",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Jeb",
+       "spoken": "Jeb",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Jeff's",
+       "spoken": "Jeff's",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    }
+   },
+   "accept": [
+    "hey",
+    "jev",
+    "jev?",
+    "okay"
+   ]
+  },
+  {
+   "name": "jupp",
+   "display": "Jupp",
+   "languages": {
+    "de": {
+     "positives": [
+      {
+       "line": "Hey Jupp",
+       "spoken": "Hey Jupp",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "He Jupp",
+       "spoken": "He Jupp",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "Hey Job",
+       "spoken": "Hey Job",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Hey Sepp",
+       "spoken": "Hey Sepp",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Hey Jo",
+       "spoken": "Hey Jo",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Hey du",
+       "spoken": "Hey du",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "jap",
+       "spoken": "jap",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "jep",
+       "spoken": "jep",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Suppe",
+       "spoken": "Suppe",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    }
+   },
+   "accept": [
+    "hey",
+    "jup",
+    "jupp"
+   ]
+  },
+  {
+   "name": "jupp-stop",
+   "display": "Jupp stop!",
+   "languages": {
+    "de": {
+     "positives": [
+      {
+       "line": "Jupp stop!",
+       "spoken": "Jupp stop!",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "Jupp",
+       "spoken": "Jupp",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Jupp, mach ich",
+       "spoken": "Jupp, mach ich",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Job stopp",
+       "spoken": "Job stopp",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Jupp, okay",
+       "spoken": "Jupp, okay",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    }
+   },
+   "accept": [
+    "jupp stop",
+    "jupp stopp",
+    "stop",
+    "stopp",
+    "yupp stop"
+   ]
+  },
+  {
+   "name": "kitt",
+   "display": "KITT",
+   "languages": {
+    "de": {
+     "positives": [
+      {
+       "line": "Hey Kitt",
+       "spoken": "Hey Kitt",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "He Kitt",
+       "spoken": "He Kitt",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Okay Kitt",
+       "spoken": "Okay Kitt",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Ok Kitt",
+       "spoken": "Ok Kitt",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Kitt",
+       "spoken": "Kitt",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Kitt?",
+       "spoken": "Kitt?",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "Kette",
+       "spoken": "Kette",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Kite",
+       "spoken": "Kite",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Kissen",
+       "spoken": "Kissen",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    },
+    "en": {
+     "positives": [
+      {
+       "line": "Hey Kitt",
+       "spoken": "Hey Kitt",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Okay Kitt",
+       "spoken": "Okay Kitt",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Ok Kitt",
+       "spoken": "Ok Kitt",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Kitt",
+       "spoken": "Kitt",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Kitt?",
+       "spoken": "Kitt?",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "kid",
+       "spoken": "kid",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "kitten",
+       "spoken": "kitten",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "kite",
+       "spoken": "kite",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "kissed",
+       "spoken": "kissed",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    }
+   },
+   "accept": [
+    "hey",
+    "kit",
+    "kitt",
+    "kitt?",
+    "okay"
+   ]
+  },
+  {
+   "name": "kompressor",
+   "display": "Kompressor",
+   "languages": {
+    "de": {
+     "positives": [
+      {
+       "line": "Hey Kompressor",
+       "spoken": "Hey Kompressor",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "He Kompressor",
+       "spoken": "He Kompressor",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Kompressor",
+       "spoken": "Kompressor",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Kompressor?",
+       "spoken": "Kompressor?",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "Kompressoren",
+       "spoken": "Kompressoren",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Kompresse",
+       "spoken": "Kompresse",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    },
+    "en": {
+     "positives": [
+      {
+       "line": "Hey Kompressor",
+       "spoken": "Hey Kompressor",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Kompressor",
+       "spoken": "Kompressor",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Kompressor?",
+       "spoken": "Kompressor?",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "compressed or",
+       "spoken": "compressed or",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    }
+   },
+   "accept": [
+    "compressor",
+    "hey",
+    "kompressor",
+    "okay"
+   ]
+  },
+  {
+   "name": "lumo",
+   "display": "Lumo",
+   "languages": {
+    "de": {
+     "positives": [
+      {
+       "line": "Hey Lumo",
+       "spoken": "Hey Lumo",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "He Lumo",
+       "spoken": "He Lumo",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Lumo",
+       "spoken": "Lumo",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Lumo?",
+       "spoken": "Lumo?",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "Lump",
+       "spoken": "Lump",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Lumen",
+       "spoken": "Lumen",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Numo",
+       "spoken": "Numo",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Ludo",
+       "spoken": "Ludo",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    },
+    "en": {
+     "positives": [
+      {
+       "line": "Hey Lumo",
+       "spoken": "Hey Lumo",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Lumo",
+       "spoken": "Lumo",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Lumo?",
+       "spoken": "Lumo?",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "loom",
+       "spoken": "loom",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "luma",
+       "spoken": "luma",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "lunar",
+       "spoken": "lunar",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "lube",
+       "spoken": "lube",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    }
+   },
+   "accept": [
+    "hey",
+    "lumo",
+    "okay"
+   ]
+  },
+  {
+   "name": "mac",
+   "display": "Mac",
+   "languages": {
+    "de": {
+     "positives": [
+      {
+       "line": "Hey Mac",
+       "spoken": "Hey Mac",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "He Mac",
+       "spoken": "He Mac",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "Max",
+       "spoken": "Max",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Mappe",
+       "spoken": "Mappe",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Macht",
+       "spoken": "Macht",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    },
+    "en": {
+     "positives": [
+      {
+       "line": "Hey Mac",
+       "spoken": "Hey Mac",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "max",
+       "spoken": "max",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "mark",
+       "spoken": "mark",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "map",
+       "spoken": "map",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    }
+   },
+   "accept": [
+    "hey",
+    "mac",
+    "mack",
+    "mag",
+    "okay"
+   ]
+  },
+  {
+   "name": "mac-mini",
+   "display": "Mac Mini",
+   "languages": {
+    "de": {
+     "positives": [
+      {
+       "line": "Hey Mac Mini",
+       "spoken": "Hey Mac Mini",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "He Mac Mini",
+       "spoken": "He Mac Mini",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Mac Mini",
+       "spoken": "Mac Mini",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Mac Mini?",
+       "spoken": "Mac Mini?",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "Mac",
+       "spoken": "Mac",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Mini",
+       "spoken": "Mini",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Minister",
+       "spoken": "Minister",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Mini Rock",
+       "spoken": "Mini Rock",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    },
+    "en": {
+     "positives": [
+      {
+       "line": "Hey Mac Mini",
+       "spoken": "Hey Mac Mini",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Mac Mini",
+       "spoken": "Mac Mini",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Mac Mini?",
+       "spoken": "Mac Mini?",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "mac",
+       "spoken": "mac",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "mini",
+       "spoken": "mini",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "minivan",
+       "spoken": "minivan",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "mini me",
+       "spoken": "mini me",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    }
+   },
+   "accept": [
+    "hey",
+    "mac mini",
+    "okay"
+   ]
+  },
+  {
+   "name": "mac-studio",
+   "display": "Mac Studio",
+   "languages": {
+    "de": {
+     "positives": [
+      {
+       "line": "Hey Mac Studio",
+       "spoken": "Hey Mac Studio",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "He Mac Studio",
+       "spoken": "He Mac Studio",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Mac Studio",
+       "spoken": "Mac Studio",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Mac Studio?",
+       "spoken": "Mac Studio?",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "Mac",
+       "spoken": "Mac",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Studio",
+       "spoken": "Studio",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Stuhl",
+       "spoken": "Stuhl",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Student",
+       "spoken": "Student",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    },
+    "en": {
+     "positives": [
+      {
+       "line": "Hey Mac Studio",
+       "spoken": "Hey Mac Studio",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Mac Studio",
+       "spoken": "Mac Studio",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Mac Studio?",
+       "spoken": "Mac Studio?",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "mac",
+       "spoken": "mac",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "studio",
+       "spoken": "studio",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "study",
+       "spoken": "study",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "studiocam",
+       "spoken": "studiocam",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    }
+   },
+   "accept": [
+    "hey",
+    "mac studio",
+    "okay"
+   ]
+  },
+  {
+   "name": "macbook",
+   "display": "MacBook",
+   "languages": {
+    "de": {
+     "positives": [
+      {
+       "line": "Hey MacBook",
+       "spoken": "Hey MacBook",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "He MacBook",
+       "spoken": "He MacBook",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "MacBook",
+       "spoken": "MacBook",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "MacBook?",
+       "spoken": "MacBook?",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "Mac",
+       "spoken": "Mac",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Notebook",
+       "spoken": "Notebook",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Mappe",
+       "spoken": "Mappe",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Mac Burt",
+       "spoken": "Mac Burt",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    },
+    "en": {
+     "positives": [
+      {
+       "line": "Hey MacBook",
+       "spoken": "Hey MacBook",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "MacBook",
+       "spoken": "MacBook",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "MacBook?",
+       "spoken": "MacBook?",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "mac",
+       "spoken": "mac",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "notebook",
+       "spoken": "notebook",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "notepad",
+       "spoken": "notepad",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "mac bark",
+       "spoken": "mac bark",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    }
+   },
+   "accept": [
+    "hey",
+    "mac book",
+    "macbook",
+    "okay"
+   ]
+  },
+  {
+   "name": "mei-ling",
+   "display": "Mei-Ling",
+   "languages": {
+    "de": {
+     "positives": [
+      {
+       "line": "Hey Mei-Ling",
+       "spoken": "Hey Mei-Ling",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "He Mei-Ling",
+       "spoken": "He Mei-Ling",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Mei-Ling",
+       "spoken": "Mei-Ling",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Mei-Ling?",
+       "spoken": "Mei-Ling?",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "Mailing",
+       "spoken": "Mailing",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Mei Lin",
+       "spoken": "Mei Lin",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    },
+    "en": {
+     "positives": [
+      {
+       "line": "Hey Mei-Ling",
+       "spoken": "Hey Mei-Ling",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Mei-Ling",
+       "spoken": "Mei-Ling",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Mei-Ling?",
+       "spoken": "Mei-Ling?",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "mei lin",
+       "spoken": "mei lin",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "mail ring",
+       "spoken": "mail ring",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    }
+   },
+   "accept": [
+    "mai ling",
+    "mailling",
+    "may ling",
+    "meiling"
+   ]
+  },
+  {
+   "name": "meryl",
+   "display": "Meryl",
+   "languages": {
+    "de": {
+     "positives": [
+      {
+       "line": "Hey Meryl",
+       "spoken": "Hey Meryl",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "He Meryl",
+       "spoken": "He Meryl",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Meryl",
+       "spoken": "Meryl",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Meryl?",
+       "spoken": "Meryl?",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "Merle",
+       "spoken": "Merle",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Mary",
+       "spoken": "Mary",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Merrill",
+       "spoken": "Merrill",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Meral",
+       "spoken": "Meral",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    },
+    "en": {
+     "positives": [
+      {
+       "line": "Hey Meryl",
+       "spoken": "Hey Meryl",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Meryl",
+       "spoken": "Meryl",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Meryl?",
+       "spoken": "Meryl?",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "merle",
+       "spoken": "merle",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "mary",
+       "spoken": "mary",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "merrill",
+       "spoken": "merrill",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "muriel",
+       "spoken": "muriel",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "marvel",
+       "spoken": "marvel",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    }
+   },
+   "accept": []
+  },
+  {
+   "name": "miller",
+   "display": "Miller",
+   "languages": {
+    "de": {
+     "positives": [
+      {
+       "line": "Hey Miller",
+       "spoken": "Hey Miller",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "He Miller",
+       "spoken": "He Miller",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Miller",
+       "spoken": "Miller",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Miller?",
+       "spoken": "Miller?",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "Müller",
+       "spoken": "Müller",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Millers",
+       "spoken": "Millers",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Maler",
+       "spoken": "Maler",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Meiler",
+       "spoken": "Meiler",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    },
+    "en": {
+     "positives": [
+      {
+       "line": "Hey Miller",
+       "spoken": "Hey Miller",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Miller",
+       "spoken": "Miller",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Miller?",
+       "spoken": "Miller?",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "muller",
+       "spoken": "muller",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "milers",
+       "spoken": "milers",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "milder",
+       "spoken": "milder",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    }
+   },
+   "accept": []
+  },
+  {
+   "name": "mistral",
+   "display": "Mistral",
+   "languages": {
+    "de": {
+     "positives": [
+      {
+       "line": "Hey Mistral",
+       "spoken": "Hey Mistral",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "He Mistral",
+       "spoken": "He Mistral",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Mistral",
+       "spoken": "Mistral",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Mistral?",
+       "spoken": "Mistral?",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "Mist",
+       "spoken": "Mist",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Mistgabel",
+       "spoken": "Mistgabel",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Minister",
+       "spoken": "Minister",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Mittel",
+       "spoken": "Mittel",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    },
+    "en": {
+     "positives": [
+      {
+       "line": "Hey Mistral",
+       "spoken": "Hey Mistral",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Mistral",
+       "spoken": "Mistral",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Mistral?",
+       "spoken": "Mistral?",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "mist",
+       "spoken": "mist",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "missed rail",
+       "spoken": "missed rail",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "minstrel",
+       "spoken": "minstrel",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "miss tral",
+       "spoken": "miss tral",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    }
+   },
+   "accept": [
+    "hey",
+    "mistral",
+    "okay"
+   ]
+  },
+  {
+   "name": "monogun",
+   "display": "Monogun",
+   "languages": {
+    "de": {
+     "positives": [
+      {
+       "line": "Hey Monogun",
+       "spoken": "Hey Monogun",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "He Monogun",
+       "spoken": "He Monogun",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Monogun",
+       "spoken": "Monogun",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Monogun?",
+       "spoken": "Monogun?",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": []
+    },
+    "en": {
+     "positives": [
+      {
+       "line": "Hey Monogun",
+       "spoken": "Hey Monogun",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Monogun",
+       "spoken": "Monogun",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Monogun?",
+       "spoken": "Monogun?",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "money gun",
+       "spoken": "money gun",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "monogon",
+       "spoken": "monogon",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "mono gum",
+       "spoken": "mono gum",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    }
+   },
+   "accept": [
+    "mono gun"
+   ]
+  },
+  {
+   "name": "naomi",
+   "display": "Naomi",
+   "languages": {
+    "de": {
+     "positives": [
+      {
+       "line": "Hey Naomi",
+       "spoken": "Hey Naomi",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "He Naomi",
+       "spoken": "He Naomi",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Naomi",
+       "spoken": "Naomi",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Naomi?",
+       "spoken": "Naomi?",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "Naomie",
+       "spoken": "Naomie",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Noemi",
+       "spoken": "Noemi",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Nami",
+       "spoken": "Nami",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Naama",
+       "spoken": "Naama",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    },
+    "en": {
+     "positives": [
+      {
+       "line": "Hey Naomi",
+       "spoken": "Hey Naomi",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Naomi",
+       "spoken": "Naomi",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Naomi?",
+       "spoken": "Naomi?",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "naomie",
+       "spoken": "naomie",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "noemi",
+       "spoken": "noemi",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "nami",
+       "spoken": "nami",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "nahum",
+       "spoken": "nahum",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "na omi",
+       "spoken": "na omi",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    }
+   },
+   "accept": []
+  },
+  {
+   "name": "ocelot",
+   "display": "Ocelot",
+   "languages": {
+    "de": {
+     "positives": [
+      {
+       "line": "Hey Ocelot",
+       "spoken": "Hey Ocelot",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "He Ocelot",
+       "spoken": "He Ocelot",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Ocelot",
+       "spoken": "Ocelot",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Ocelot?",
+       "spoken": "Ocelot?",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "Ozelot",
+       "spoken": "Ozelot",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Ozelote",
+       "spoken": "Ozelote",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    },
+    "en": {
+     "positives": [
+      {
+       "line": "Hey Ocelot",
+       "spoken": "Hey Ocelot",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Ocelot",
+       "spoken": "Ocelot",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Ocelot?",
+       "spoken": "Ocelot?",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "oh sell lot",
+       "spoken": "oh sell lot",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "oslo",
+       "spoken": "oslo",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    }
+   },
+   "accept": []
+  },
+  {
+   "name": "outatime",
+   "display": "Outatime",
+   "languages": {
+    "de": {
+     "positives": [
+      {
+       "line": "Hey Outatime",
+       "spoken": "Hey Outatime",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "He Outatime",
+       "spoken": "He Outatime",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Outatime",
+       "spoken": "Outatime",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Outatime?",
+       "spoken": "Outatime?",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "Out of Time",
+       "spoken": "Out of Time",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "aus der Zeit",
+       "spoken": "aus der Zeit",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Autotime",
+       "spoken": "Autotime",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    },
+    "en": {
+     "positives": [
+      {
+       "line": "Hey Outatime",
+       "spoken": "Hey Outatime",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Outatime",
+       "spoken": "Outatime",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Outatime?",
+       "spoken": "Outatime?",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "out of time",
+       "spoken": "out of time",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "outta time",
+       "spoken": "outta time",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "outer time",
+       "spoken": "outer time",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    }
+   },
+   "accept": [
+    "out atime"
+   ]
+  },
+  {
+   "name": "owlznest",
+   "display": "Owlznest",
+   "languages": {
+    "de": {
+     "positives": [
+      {
+       "line": "Hey Owlznest",
+       "spoken": "Hey Owlznest",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "He Owlznest",
+       "spoken": "He Owlznest",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Owlznest",
+       "spoken": "Owlznest",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Owlznest?",
+       "spoken": "Owlznest?",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "Eulennest",
+       "spoken": "Eulennest",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Owls Nest",
+       "spoken": "Owls Nest",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    },
+    "en": {
+     "positives": [
+      {
+       "line": "Hey Owlznest",
+       "spoken": "Hey Owlznest",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Owlznest",
+       "spoken": "Owlznest",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Owlznest?",
+       "spoken": "Owlznest?",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "owls nest",
+       "spoken": "owls nest",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "owl nest",
+       "spoken": "owl nest",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "out nest",
+       "spoken": "out nest",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "old nest",
+       "spoken": "old nest",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    }
+   },
+   "accept": []
+  },
+  {
+   "name": "perplexity",
+   "display": "Perplexity",
+   "languages": {
+    "de": {
+     "positives": [
+      {
+       "line": "Hey Perplexity",
+       "spoken": "Hey Perplexity",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "He Perplexity",
+       "spoken": "He Perplexity",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Perplexity",
+       "spoken": "Perplexity",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Perplexity?",
+       "spoken": "Perplexity?",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "Perplex",
+       "spoken": "Perplex",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Komplexität",
+       "spoken": "Komplexität",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Plexiglas",
+       "spoken": "Plexiglas",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Perücke",
+       "spoken": "Perücke",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    },
+    "en": {
+     "positives": [
+      {
+       "line": "Hey Perplexity",
+       "spoken": "Hey Perplexity",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Perplexity",
+       "spoken": "Perplexity",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Perplexity?",
+       "spoken": "Perplexity?",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "perplex",
+       "spoken": "perplex",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "complexity",
+       "spoken": "complexity",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "plex",
+       "spoken": "plex",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "perks city",
+       "spoken": "perks city",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    }
+   },
+   "accept": [
+    "hey",
+    "okay",
+    "perplexity"
+   ]
+  },
+  {
+   "name": "puck",
+   "display": "Puck",
+   "languages": {
+    "de": {
+     "positives": [
+      {
+       "line": "Hey Puck",
+       "spoken": "Hey Puck",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "He Puck",
+       "spoken": "He Puck",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Puck",
+       "spoken": "Puck",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Puck?",
+       "spoken": "Puck?",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "Buck",
+       "spoken": "Buck",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Pakt",
+       "spoken": "Pakt",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Punk",
+       "spoken": "Punk",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Bock",
+       "spoken": "Bock",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Pück",
+       "spoken": "Pück",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    },
+    "en": {
+     "positives": [
+      {
+       "line": "Hey Puck",
+       "spoken": "Hey Puck",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Puck",
+       "spoken": "Puck",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Puck?",
+       "spoken": "Puck?",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "pack",
+       "spoken": "pack",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "back",
+       "spoken": "back",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "bug",
+       "spoken": "bug",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "pug",
+       "spoken": "pug",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "punk",
+       "spoken": "punk",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    }
+   },
+   "accept": [
+    "hey",
+    "okay",
+    "puck"
+   ]
+  },
+  {
+   "name": "qwen",
+   "display": "Qwen",
+   "languages": {
+    "de": {
+     "positives": [
+      {
+       "line": "Hey Qwen",
+       "spoken": "Hey Qwen",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "He Qwen",
+       "spoken": "He Qwen",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Qwen",
+       "spoken": "Qwen",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Qwen?",
+       "spoken": "Qwen?",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "Quelle",
+       "spoken": "Quelle",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Queen",
+       "spoken": "Queen",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Quark",
+       "spoken": "Quark",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Qualle",
+       "spoken": "Qualle",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    },
+    "en": {
+     "positives": [
+      {
+       "line": "Hey Qwen",
+       "spoken": "Hey Qwen",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Qwen",
+       "spoken": "Qwen",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Qwen?",
+       "spoken": "Qwen?",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "when",
+       "spoken": "when",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "queen",
+       "spoken": "queen",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "quinn",
+       "spoken": "quinn",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "quell",
+       "spoken": "quell",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    }
+   },
+   "accept": [
+    "hey",
+    "kwen",
+    "okay",
+    "quen",
+    "qwen"
+   ]
+  },
+  {
+   "name": "raiden",
+   "display": "Raiden",
+   "languages": {
+    "de": {
+     "positives": [
+      {
+       "line": "Hey Raiden",
+       "spoken": "Hey Raiden",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "He Raiden",
+       "spoken": "He Raiden",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Raiden",
+       "spoken": "Raiden",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Raiden?",
+       "spoken": "Raiden?",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "Reiten",
+       "spoken": "Reiten",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Raden",
+       "spoken": "Raden",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    },
+    "en": {
+     "positives": [
+      {
+       "line": "Hey Raiden",
+       "spoken": "Hey Raiden",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Raiden",
+       "spoken": "Raiden",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Raiden?",
+       "spoken": "Raiden?",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "riding",
+       "spoken": "riding",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "ray don",
+       "spoken": "ray don",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    }
+   },
+   "accept": [
+    "raidan",
+    "rayden",
+    "reiden"
+   ]
+  },
+  {
+   "name": "run",
+   "display": "Run",
+   "languages": {
+    "de": {
+     "positives": [
+      {
+       "line": "Run",
+       "spoken": "Run",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Starte",
+       "spoken": "Starte",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "running",
+       "spoken": "running",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "ran",
+       "spoken": "ran",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "rum",
+       "spoken": "rum",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "ruhm",
+       "spoken": "ruhm",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    },
+    "en": {
+     "positives": [
+      {
+       "line": "Run",
+       "spoken": "Run",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "running",
+       "spoken": "running",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "ran",
+       "spoken": "ran",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "wrong",
+       "spoken": "wrong",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    }
+   },
+   "accept": [
+    "run",
+    "starte"
+   ]
+  },
+  {
+   "name": "sidequest",
+   "display": "Sidequest",
+   "languages": {
+    "de": {
+     "positives": [
+      {
+       "line": "Hey Sidequest",
+       "spoken": "Hey Sidequest",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "He Sidequest",
+       "spoken": "He Sidequest",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Okay Sidequest",
+       "spoken": "Okay Sidequest",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Ok Sidequest",
+       "spoken": "Ok Sidequest",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Sidequest",
+       "spoken": "Sidequest",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Sidequest?",
+       "spoken": "Sidequest?",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "Seit Quest",
+       "spoken": "Seit Quest",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Seitenquest",
+       "spoken": "Seitenquest",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Seit",
+       "spoken": "Seit",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Seiten quest",
+       "spoken": "Seiten quest",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    },
+    "en": {
+     "positives": [
+      {
+       "line": "Hey Sidequest",
+       "spoken": "Hey Sidequest",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Okay Sidequest",
+       "spoken": "Okay Sidequest",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Ok Sidequest",
+       "spoken": "Ok Sidequest",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Sidequest",
+       "spoken": "Sidequest",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Sidequest?",
+       "spoken": "Sidequest?",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "side guest",
+       "spoken": "side guest",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "sight quest",
+       "spoken": "sight quest",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "sidekick",
+       "spoken": "sidekick",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    }
+   },
+   "accept": [
+    "quest",
+    "side",
+    "side quest",
+    "sidequest"
+   ]
+  },
+  {
+   "name": "snake",
+   "display": "Snake",
+   "languages": {
+    "de": {
+     "positives": [
+      {
+       "line": "Hey Snake",
+       "spoken": "Hey Snake",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "He Snake",
+       "spoken": "He Snake",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Snake",
+       "spoken": "Snake",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Snake?",
+       "spoken": "Snake?",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "Schnecke",
+       "spoken": "Schnecke",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Snack",
+       "spoken": "Snack",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Sake",
+       "spoken": "Sake",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Steak",
+       "spoken": "Steak",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    },
+    "en": {
+     "positives": [
+      {
+       "line": "Hey Snake",
+       "spoken": "Hey Snake",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "Snake",
+       "spoken": "Snake",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Snake?",
+       "spoken": "Snake?",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "snack",
+       "spoken": "snack",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "sneak",
+       "spoken": "sneak",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "stake",
+       "spoken": "stake",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "steak",
+       "spoken": "steak",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "shake",
+       "spoken": "shake",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "snakes",
+       "spoken": "snakes",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    }
+   },
+   "accept": []
+  },
+  {
+   "name": "stop",
+   "display": "Stop",
+   "languages": {
+    "de": {
+     "positives": [
+      {
+       "line": "Stop",
+       "spoken": "Stop",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Stop!",
+       "spoken": "Stop!",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "Stoff",
+       "spoken": "Stoff",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Topp",
+       "spoken": "Topp",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Shop",
+       "spoken": "Shop",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "stopf",
+       "spoken": "stopf",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Stock",
+       "spoken": "Stock",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    },
+    "en": {
+     "positives": [
+      {
+       "line": "Stop",
+       "spoken": "Stop",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Stop!",
+       "spoken": "Stop!",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "shop",
+       "spoken": "shop",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "top",
+       "spoken": "top",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "stomp",
+       "spoken": "stomp",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "stock",
+       "spoken": "stock",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "stuff",
+       "spoken": "stuff",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    }
+   },
+   "accept": [
+    "stop",
+    "stopp"
+   ]
+  },
+  {
+   "name": "techtalk",
+   "display": "TechTalk",
+   "languages": {
+    "de": {
+     "positives": [
+      {
+       "line": "TechTalk",
+       "spoken": "TechTalk",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "TechTalk?",
+       "spoken": "TechTalk?",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "Tic Tac",
+       "spoken": "Tic Tac",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Tech Stack",
+       "spoken": "Tech Stack",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Check Talk",
+       "spoken": "Check Talk",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Tech",
+       "spoken": "Tech",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    },
+    "en": {
+     "positives": [
+      {
+       "line": "TechTalk",
+       "spoken": "TechTalk",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "TechTalk?",
+       "spoken": "TechTalk?",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "tic tac",
+       "spoken": "tic tac",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "tech stack",
+       "spoken": "tech stack",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "check talk",
+       "spoken": "check talk",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "tech",
+       "spoken": "tech",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    }
+   },
+   "accept": [
+    "tech talk",
+    "techtalk"
+   ]
+  },
+  {
+   "name": "trigger",
+   "display": "Trigger",
+   "languages": {
+    "de": {
+     "positives": [
+      {
+       "line": "Trigger",
+       "spoken": "Trigger",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      },
+      {
+       "line": "Auslöser",
+       "spoken": "Auslöser",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "Tricker",
+       "spoken": "Tricker",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Ticker",
+       "spoken": "Ticker",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    },
+    "en": {
+     "positives": [
+      {
+       "line": "Trigger",
+       "spoken": "Trigger",
+       "kind": "positive",
+       "form": "bare",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "tricker",
+       "spoken": "tricker",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "ticker",
+       "spoken": "ticker",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    }
+   },
+   "accept": [
+    "auslöser",
+    "trigger"
+   ]
+  },
+  {
+   "name": "windows",
+   "display": "Windows",
+   "languages": {
+    "de": {
+     "positives": [
+      {
+       "line": "Hey Windows",
+       "spoken": "Hey Windows",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      },
+      {
+       "line": "He Windows",
+       "spoken": "He Windows",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "Fenster",
+       "spoken": "Fenster",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Wind",
+       "spoken": "Wind",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Gewinde",
+       "spoken": "Gewinde",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "Winseln",
+       "spoken": "Winseln",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    },
+    "en": {
+     "positives": [
+      {
+       "line": "Hey Windows",
+       "spoken": "Hey Windows",
+       "kind": "positive",
+       "form": "addressed",
+       "note": ""
+      }
+     ],
+     "negatives": [
+      {
+       "line": "window",
+       "spoken": "window",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "wins",
+       "spoken": "wins",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "wind us",
+       "spoken": "wind us",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      },
+      {
+       "line": "win those",
+       "spoken": "win those",
+       "kind": "negative",
+       "form": "confusable",
+       "note": ""
+      }
+     ]
+    }
+   },
+   "accept": [
+    "hey",
+    "okay",
+    "windows"
+   ]
+  }
+ ],
+ "protocol": {
+  "capture": "one Record press runs every take for the selected word and session: 0.8 s cue, 2.6 s window, 0.4 s break.",
+  "sample_rate": "mono 16 kHz PCM16, echoCancellation/noiseSuppression/autoGainControl off",
+  "take_max_seconds": 4,
+  "save": "private on this host as an owner-wake-candidate with word, form, language, style, session and taken number; unreviewed, trainingEligible false",
+  "coverage": "the page shows how many accepted takes exist per word and session so gaps are visible"
+ }
+}

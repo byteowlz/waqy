@@ -1,0 +1,94 @@
+{
+ "name": "greyrot",
+ "display": "Greyrot",
+ "trigger": "hey greyrot",
+ "train_bare": true,
+ "address": {
+  "de": [
+   "Hey",
+   "He"
+  ],
+  "en": [
+   "Hey"
+  ],
+  "es": [
+   "Oye",
+   "Eh",
+   "Oye"
+  ]
+ },
+ "address_primary": {
+  "de": "Hey",
+  "en": "Hey",
+  "es": "Oye"
+ },
+ "forms": {
+  "de": [
+   "Hey Greyrot",
+   "He Greyrot",
+   "Greyrot",
+   "Greyrot?"
+  ],
+  "en": [
+   "Hey Greyrot",
+   "Greyrot",
+   "Greyrot?"
+  ],
+  "es": [
+   "Oye Greyrot",
+   "Eh Greyrot",
+   "Greyrot",
+   "Greyrot?"
+  ]
+ },
+ "confusables": {
+  "de": [
+   "Graurot",
+   "grau rot",
+   "Grau Rod"
+  ],
+  "en": [
+   "grey rod",
+   "grey rat",
+   "great rot"
+  ],
+  "es": [
+   "gris podrido",
+   "grey rot"
+  ]
+ },
+ "templates": {
+  "de": [
+   "{W}",
+   "{A} {W}.",
+   "{A} {W}, mach das Licht an.",
+   "Also, äh, {A} {W}, spiel Musik.",
+   "{A} {W}, wie spät ist es?",
+   "Hast du {W} schon ausprobiert?",
+   "Mit {W} geht das viel schneller."
+  ],
+  "en": [
+   "{W}",
+   "{A} {W}.",
+   "{A} {W}, turn on the lights.",
+   "So, uhm, {A} {W}, play some music.",
+   "{A} {W}, what time is it?",
+   "Have you tried {W} yet?",
+   "With {W} this is much faster."
+  ],
+  "es": [
+   "{W}",
+   "{A} {W}.",
+   "{A} {W}, enciende la luz.",
+   "Vale, {A} {W}, pon música.",
+   "{A} {W}, ¿qué hora es?",
+   "¿Ya probaste {W}?",
+   "Con {W} esto va mucho más rápido."
+  ]
+ },
+ "accept_stems": [
+  "grey rot",
+  "gray rot"
+ ],
+ "pronunciation_note": "Same-sound spellings found by an espeak-ng IPA audit (2026-11-04) moved from confusables to accept_stems: grey rot, gray rot."
+}

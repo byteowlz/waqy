@@ -1,0 +1,79 @@
+{
+  "version": 1,
+  "tracker": "eaRS trx-2stp.6",
+  "candidate_source": "User fixed candidate phrases to the literal strings 'oqto' / 'hey oqto' (agent-messageboard ears-wakeword 35e03361, 2026-10-21). Preserve the displayed product spelling 'Oqto' and the spoken spellings below separately; this is a pronunciation protocol, not a product-name renaming.",
+  "languages": [
+    {
+      "id": "de",
+      "label": "German",
+      "display": "Oqto in German is spoken as 'ok-to', two syllables, not letter-by-letter.",
+      "instruction": "Say it naturally the way you would say it in German conversation: 'ok-to' / 'ok-toh'. Keep the already recorded preference and do not switch to O-K-T-O.",
+      "groups": [
+        {
+          "group": "de-primary",
+          "label": "German wake candidates",
+          "phrases": [
+            { "id": "de-bare-a", "label": "Bare, slow", "line": "ok-to", "spoken": "ok-to", "words": "2 syllables, slower", "label_kind": "positive" },
+            { "id": "de-bare-b", "label": "Bare, normal", "line": "ok-to", "spoken": "ok-to", "words": "2 syllables, normal pace", "label_kind": "positive" },
+            { "id": "de-bare-c", "label": "Bare, quick", "line": "okto", "spoken": "okto", "words": "2 syllables, quicker", "label_kind": "positive" },
+            { "id": "de-hey-a", "label": "Hey, slow", "line": "hey ok-to", "spoken": "hey ok-to", "words": "3 syllables, slower", "label_kind": "positive" },
+            { "id": "de-hey-b", "label": "Hey, normal", "line": "hey ok-to", "spoken": "hey ok-to", "words": "3 syllables, normal pace", "label_kind": "positive" },
+            { "id": "de-hey-c", "label": "Hey, quick", "line": "hey okto", "spoken": "hey okto", "words": "3 syllables, quicker", "label_kind": "positive" }
+          ]
+        },
+        {
+          "group": "de-confusable",
+          "label": "German confusables and partial prefixes",
+          "phrases": [
+            { "id": "de-confuse-oktober", "label": "month", "line": "Oktober", "spoken": "Oktober", "words": "month name", "label_kind": "negative" },
+            { "id": "de-confuse-oktopus", "label": "Oktopus", "line": "Oktopus", "spoken": "Oktopus", "words": "octopus", "label_kind": "negative" },
+            { "id": "de-confuse-oktave", "label": "Oktave", "line": "Oktave", "spoken": "Oktave", "words": "octave", "label_kind": "negative" },
+            { "id": "de-prefix-bare-a", "label": "Bare prefix", "line": "ok", "spoken": "ok", "words": "one syllable", "label_kind": "negative" },
+            { "id": "de-prefix-hey-a", "label": "Hey prefix", "line": "hey", "spoken": "hey", "words": "one syllable", "label_kind": "negative" },
+            { "id": "de-neutral-da", "label": "Neutral cue", "line": "da, ich hab eins", "spoken": "da, ich hab eins", "words": "3 syllables", "label_kind": "negative" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "en",
+      "label": "English",
+      "display": "Oqto in English is spoken as 'ok-toh' (or 'octo'), not letter-by-letter.",
+      "instruction": "Say it naturally the way you would say 'octo' / 'ok-toh' in English. Keep the already recorded preference; do not switch to O-Q-T-O.",
+      "groups": [
+        {
+          "group": "en-primary",
+          "label": "English wake candidates",
+          "phrases": [
+            { "id": "en-bare-a", "label": "Bare, slow", "line": "ok-toh", "spoken": "ok-toh", "words": "2 syllables, slower", "label_kind": "positive" },
+            { "id": "en-bare-b", "label": "Bare, normal", "line": "ok-toh", "spoken": "ok-toh", "words": "2 syllables, normal pace", "label_kind": "positive" },
+            { "id": "en-bare-c", "label": "Bare, quick", "line": "oktoh", "spoken": "oktoh", "words": "2 syllables, quicker", "label_kind": "positive" },
+            { "id": "en-hey-a", "label": "Hey, slow", "line": "hey ok-toh", "spoken": "hey ok-toh", "words": "3 syllables, slower", "label_kind": "positive" },
+            { "id": "en-hey-b", "label": "Hey, normal", "line": "hey ok-toh", "spoken": "hey ok-toh", "words": "3 syllables, normal pace", "label_kind": "positive" },
+            { "id": "en-hey-c", "label": "Hey, quick", "line": "hey oktoh", "spoken": "hey oktoh", "words": "3 syllables, quicker", "label_kind": "positive" }
+          ]
+        },
+        {
+          "group": "en-confusable",
+          "label": "English confusables and partial prefixes",
+          "phrases": [
+            { "id": "en-confuse-october", "label": "month", "line": "October", "spoken": "October", "words": "month name", "label_kind": "negative" },
+            { "id": "en-confuse-octopus", "label": "octopus", "line": "octopus", "spoken": "octopus", "words": "animal", "label_kind": "negative" },
+            { "id": "en-confuse-octave", "label": "octave", "line": "octave", "spoken": "octave", "words": "music interval", "label_kind": "negative" },
+            { "id": "en-prefix-bare-a", "label": "Bare prefix", "line": "oc", "spoken": "oc", "words": "one syllable", "label_kind": "negative" },
+            { "id": "en-prefix-hey-a", "label": "Hey prefix", "line": "hey", "spoken": "hey", "words": "one syllable", "label_kind": "negative" },
+            { "id": "en-neutral-got", "label": "Neutral cue", "line": "got one, sure", "spoken": "got one, sure", "words": "3 syllables", "label_kind": "negative" }
+          ]
+        }
+      ]
+    }
+  ],
+  "protocol": {
+    "capture": "one explicit Record press opens a whole session; the page then runs every listed take back to back: a 0.6-1.2 s countdown cue, a fixed 2.6 s recording window, a 0.4 s break, then the next phrase. Cues are page text only, not spoken audio.",
+    "sample_rate": "mono 16 kHz PCM16, echoCancellation/noiseSuppression/autoGainControl requested off, SDK area-average resampler",
+    "take_max_seconds": 4,
+    "save": "every take with a non-silent WAV is saved privately on this host as an owner-wake-candidate: language, group, label, phrase, spoken spelling, session, take number, PCM SHA256. Unreviewed; trainingEligible false.",
+    "silence_check": "the trailing 1 s of each take is scored for word-boundary energy; a take whose trailing window is loud is flagged for review, not silently accepted.",
+    "limits": "3 takes per phrase in this pass (~24s capture each session after cues); no automatic microphone start, no upload, no cloud, no detector, no training, no enrollment."
+  }
+}

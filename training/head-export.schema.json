@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "waqy head export profile",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "export"
+  ],
+  "properties": {
+    "export": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "source": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Immutable source release directory; relative to this config file."
+        },
+        "name": {
+          "type": "string",
+          "pattern": "^[a-z0-9][a-z0-9_-]{0,95}$",
+          "description": "New immutable public release ID."
+        },
+        "heads": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 128,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z0-9][a-z0-9_-]{0,95}$"
+          }
+        },
+        "repo": {
+          "type": "string",
+          "pattern": "^[A-Za-z0-9_-]+/[A-Za-z0-9_.-]+$"
+        },
+        "metadata": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Source-bound metadata review JSON, relative to this config."
+        },
+        "consent": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Exact-subset publication consent JSON, relative to this config. Not a permission grant."
+        },
+        "catalog": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Optional local catalog for offline previews only. Refused with --apply."
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+ "name": "kitt",
+ "trigger": "hey kitt",
+ "train_bare": true,
+ "display": "KITT",
+ "kind": "wake",
+ "forms": {
+  "de": [
+   "Hey Kitt",
+   "He Kitt",
+   "Okay Kitt",
+   "Ok Kitt",
+   "Kitt",
+   "Kitt?"
+  ],
+  "en": [
+   "Hey Kitt",
+   "Okay Kitt",
+   "Ok Kitt",
+   "Kitt",
+   "Kitt?"
+  ]
+ },
+ "confusables": {
+  "de": [
+   "Kette",
+   "Kite",
+   "Kissen"
+  ],
+  "en": [
+   "kid",
+   "kitten",
+   "kite",
+   "kissed"
+  ]
+ },
+ "pronunciation_note": "Spoken as the name 'Kit' /kɪt/. 'Kit' is the same sound, so it is a positive spelling, not a negative. 'Kid' differs by final voicing and stays a hard negative. Same-sound spellings found by an espeak-ng IPA audit (2026-11-04) moved from confusables to accept_stems: Kid. German 'Kid' is devoiced to 'Kit' (same sound, removed from German confusables); English 'kid' keeps its voiced d and stays an English look-alike, so 'kid' is not an accept stem.",
+ "address_primary": {
+  "de": "Hey",
+  "en": "Hey"
+ },
+ "accept_stems": [
+  "hey",
+  "kit",
+  "kitt",
+  "kitt?",
+  "okay"
+ ]
+}

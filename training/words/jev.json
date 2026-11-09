@@ -1,0 +1,49 @@
+{
+ "name": "jev",
+ "trigger": "hey jev",
+ "train_bare": true,
+ "display": "Jev",
+ "kind": "wake",
+ "forms": {
+  "de": [
+   "Hey Jev",
+   "He Jev",
+   "Okay Jev",
+   "Ok Jev",
+   "Jev",
+   "Jev?"
+  ],
+  "en": [
+   "Hey Jev",
+   "Okay Jev",
+   "Ok Jev",
+   "Jev",
+   "Jev?"
+  ]
+ },
+ "confusables": {
+  "de": [
+   "Jepp",
+   "Jeb",
+   "Chef",
+   "Je",
+   "Jens"
+  ],
+  "en": [
+   "Jeff",
+   "Jeb",
+   "Jeff's"
+  ]
+ },
+ "pronunciation_note": "Short one-syllable name /dʒɛv/. German devoices the final v, so German 'Jeff' is the same sound and must not be a negative; English 'Jeff' is a genuine near-miss.",
+ "address_primary": {
+  "de": "Hey",
+  "en": "Hey"
+ },
+ "accept_stems": [
+  "hey",
+  "jev",
+  "jev?",
+  "okay"
+ ]
+}

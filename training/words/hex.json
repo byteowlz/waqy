@@ -1,0 +1,112 @@
+{
+ "name": "hex",
+ "trigger": "hey hex",
+ "train_bare": true,
+ "forms": {
+  "de": [
+   "Hey Hex",
+   "Yo Hex",
+   "He Hex",
+   "Hex",
+   "Hex?"
+  ],
+  "en": [
+   "Hey Hex",
+   "Yo Hex",
+   "Hex",
+   "Hex?"
+  ],
+  "es": [
+   "Oye Hex",
+   "Eh Hex",
+   "Hex",
+   "Hex?"
+  ]
+ },
+ "confusables": {
+  "de": [
+   "Hexe",
+   "Heck",
+   "hacks",
+   "Text",
+   "Sex"
+  ],
+  "en": [
+   "hacks",
+   "hexes",
+   "texts",
+   "sex",
+   "checks"
+  ],
+  "es": [
+   "Hez",
+   "Hexa",
+   "Sex",
+   "Text",
+   "Checks"
+  ]
+ },
+ "templates": {
+  "de": [
+   "{W}",
+   "{A} {W}.",
+   "{A} {W}, mach das Licht an.",
+   "Also, äh, {A} {W}, spiel Musik.",
+   "{A} {W}, wie spät ist es?",
+   "Hast du {W} schon ausprobiert?",
+   "Ich habe {W} gestern installiert.",
+   "Mit {W} geht das viel schneller.",
+   "{A} {W}, starte einen Timer."
+  ],
+  "en": [
+   "{W}",
+   "{A} {W}.",
+   "{A} {W}, turn on the lights.",
+   "So, uhm, {A} {W}, play some music.",
+   "{A} {W}, what time is it?",
+   "Have you tried {W} yet?",
+   "I installed {W} yesterday.",
+   "With {W} this is much faster.",
+   "{A} {W}, set a timer for ten minutes."
+  ],
+  "es": [
+   "{W}",
+   "{A} {W}.",
+   "{A} {W}, enciende la luz.",
+   "Vale, {A} {W}, pon música.",
+   "{A} {W}, ¿qué hora es?",
+   "¿Ya probaste {W}?",
+   "Ayer instalé {W}.",
+   "Con {W} esto va mucho más rápido.",
+   "{A} {W}, pon un temporizador."
+  ]
+ },
+ "address": {
+  "de": [
+   "Hey",
+   "He"
+  ],
+  "en": [
+   "Hey"
+  ],
+  "es": [
+   "Oye",
+   "Eh",
+   "Oye"
+  ]
+ },
+ "display": "Hex",
+ "address_variants": {
+  "de": ["Yo"],
+  "en": ["Yo"]
+ },
+ "address_primary": {
+  "de": "Hey",
+  "en": "Hey",
+  "es": "Oye"
+ },
+ "accept_stems": [
+  "hecks"
+ ],
+ "pronunciation_note": "Same-sound spellings found by an espeak-ng IPA audit (2026-11-04) moved from confusables to accept_stems: Hecks, hecks."
+}

@@ -1,0 +1,14 @@
+{
+  "name": "@byteowlz/waqy",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Wake-phrase detection in the browser on CPU/WASM: the same release folder the native detector loads",
+  "license": "Apache-2.0",
+  "private": true,
+  "scripts": {
+    "test": "bun test"
+  },
+  "dependencies": {
+    "onnxruntime-web": "1.23.2"
+  }
+}

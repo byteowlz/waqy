@@ -1,0 +1,12 @@
+target/
+evidence/
+training/.venv/
+training/frontend/*.onnx
+training/__pycache__/
+training/provenance/__pycache__/
+web/node_modules/
+
+releases/
+
+web/app/evidence/
+web/app/build/

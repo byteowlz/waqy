@@ -1,0 +1,34 @@
+{
+ "name": "action",
+ "trigger": "action",
+ "train_bare": true,
+ "display": "Action",
+ "kind": "command",
+ "forms": {
+  "de": [
+   "Action"
+  ],
+  "en": [
+   "Action"
+  ]
+ },
+ "confusables": {
+  "de": [
+   "Aktion",
+   "Aktien"
+  ],
+  "en": [
+   "auction",
+   "acting",
+   "ash in"
+  ]
+ },
+ "pronunciation_note": "Command word; German 'Aktion' is close but distinct — keep it as a confusable.",
+ "address_primary": {
+  "de": "Hey",
+  "en": "Hey"
+ },
+ "accept_stems": [
+  "action"
+ ]
+}
