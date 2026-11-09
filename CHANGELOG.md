@@ -1,5 +1,10 @@
 ## Unreleased
 
+### Clean browser source builds
+
+- Web/UI check recipes now build the pinned vendored resampler first, so a fresh
+  public checkout does not depend on ignored assets left by an earlier service run.
+
 ### Private working source and optional head-export profiles
 
 - Adds a reviewed public-source snapshot policy while keeping working history,

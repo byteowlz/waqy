@@ -142,7 +142,9 @@ Defaults: port 8036, the configured dev hostname, release
 ## Checks
 
 ```bash
-bun test                                   # server routes, stores, guards
+# From the repository root, after `cd web && bun install --frozen-lockfile`:
+just check-ui                              # build pinned resampler, then routes/stores/guards
+just check-web                             # all browser/server unit tests
 PLAYWRIGHT=<path to playwright-core> CHROMIUM=<chromium binary> \
   TEST_ORIGIN=http://127.0.0.1:8037 RECORDINGS_DIR=<tmp> SERVER_LOG=<tmp>/server.log \
   bun browser-check.mjs                    # recording page end to end (needs AUDIO_FIXTURE)

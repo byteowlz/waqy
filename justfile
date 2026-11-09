@@ -13,8 +13,12 @@ check:
     cargo clippy --release -- -D warnings
     cargo test --release
 
+# Build only the hash-pinned, vendored browser resampler; no models or services.
+build-web-assets:
+    bun -e 'const { buildResampler } = await import("./web/app/server.mjs"); const built = await buildResampler(); console.log("resampler bytes:", built.built.bytes);'
+
 # Browser engine: streaming parity and half-duplex gate
-check-web:
+check-web: build-web-assets
     cd web && bun test
 
 # Training pipeline environment and screening tests
@@ -53,7 +57,7 @@ ui:
     cd web/app && {{ui_env}} bun server.mjs
 
 # UI checks: server routes and stores (no browser), then the two browser checks
-check-ui:
+check-ui: build-web-assets
     cd web/app && bun test
 
 check-ui-browser:
